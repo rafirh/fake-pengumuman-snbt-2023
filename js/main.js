@@ -1,105 +1,133 @@
-const inputNames = ['kpu_input', 'kku_input', 'ppu_input', 'kmm_input', 'lbind_input', 'lbing_input', 'pm_input'];
+const undisplayedElementIfRejected = [
+    'birthDateContainer',
+    'collegeNameContainer',
+    'departementContainer',
+    'majorContainer'
+]
 
-const countBtn = document.getElementById('count-btn');
-countBtn.addEventListener('click', countUtbkAverageScore);
+const requiredInputsIfRejected = [
+    'status',
+    'participant_number',
+    'name',
+    'is_kip'
+]
 
-function countUtbkAverageScore() {
-    const inputValues = getInputValues(inputNames);
-    const method = document.querySelector('input[name=method]:checked').value;
+const requiredInputsIfAccepted = [
+    'status',
+    'participant_number',
+    'name',
+    'date',
+    'month',
+    'year',
+    'college_name',
+    'departement',
+    'major',
+    'is_kip'
+]
 
-    let result = 0;
-    if (method == 'first') {
-        result = firtsMethod(inputValues);
-    } else if (method == 'second') {
-        result = secondMethod(inputValues);
-    }
+let selectedCollege, selectedDepartement;
 
-    setResult(result);
-}
+$(document).ready(function () {
+    const colleges = Object.keys(universities);
+    addOptionToSelect('college_name', colleges);
+})
 
-function firtsMethod(inputValues) {
-    const result = calculateAverage([
-        inputValues.kpu_input, 
-        inputValues.kku_input, 
-        inputValues.ppu_input, 
-        inputValues.kmm_input,
-        inputValues.lbind_input, 
-        inputValues.lbing_input,
-        inputValues.pm_input
-    ]);
+$('select[name="college_name"]').change(function () {
+    selectedCollege = $(this).val();
+    const departements = Object.keys(universities[selectedCollege]);
 
-    return roundToTwo(result);
-}
-
-function secondMethod(inputValues) {
-    const tpsAverage = calculateAverage([
-        inputValues.kpu_input,
-        inputValues.kku_input,
-        inputValues.ppu_input,
-        inputValues.kmm_input
-    ]);
-
-    const literacyAverage = calculateAverage([
-        inputValues.lbind_input,
-        inputValues.lbing_input,
-    ]);
-
-    const result = calculateAverage([
-        tpsAverage,
-        literacyAverage,
-        inputValues.pm_input
-    ]);
-
-    return roundToTwo(result);
-}
-
-function getInputValues(names) {
-    let values = {};
-    names.forEach(name => {
-        const value = document.querySelector(`input[name=${name}]`).value || 0;
-        values[name] = parseInt(value);
-    });
-    return values;
-}
-
-function calculateAverage(grades) {
-    let sum = 0;
-    grades.forEach(grade => {
-        sum += grade;
-    });
-    return sum / grades.length;
-}
-
-function setResult(value) {
-    const result = document.getElementById('result');
-    result.innerHTML = value;
-}
-
-function roundToTwo(num) {    
-    return +(Math.round(num + "e+2")  + "e-2");
-}
-
-$(document).ready(function() {
-    hitCounterApi();
+    removeOptionFromSelect('departement');
+    removeOptionFromSelect('major');
+    addOptionToSelect('departement', departements);
 });
 
-function hitCounterApi() {
-    $.ajax({
-        method: 'GET',
-        url: 'https://api.api-ninjas.com/v1/counter?id=asdn8823jjas&hit=true',
-        headers: { 'X-Api-Key': 'iPTYWm3teu+VtIp8w0YyNA==3ycdOWOsF1vM3sCU'},
-        contentType: 'application/json',
-        success: function(result) {
-            setVisitorCounter(result.value);
-        },
-        error: function ajaxError(jqXHR) {
-            console.error('Error: ', jqXHR.responseText);
-        }
+$('select[name="departement"]').change(function () {
+    selectedDepartement = $(this).val();
+    const majors = universities[selectedCollege][selectedDepartement];
+
+    removeOptionFromSelect('major');
+    addOptionToSelect('major', majors);
+});
+
+$('input[name="status"]').change(function () {
+    if (this.value == 'rejected') {
+        hideElements(undisplayedElementIfRejected);
+    } else {
+        showElements(undisplayedElementIfRejected);
+    }
+});
+
+$('input').add('select').on('input', function () {
+    const isAccepted = $('input[name="status"]:checked').val() == 'accepted';
+    const requiredInputs = isAccepted ? requiredInputsIfAccepted : requiredInputsIfRejected;
+    if (checkRequiredInputs(requiredInputs)) {
+        enabledGenerateButton();
+    } else {
+        disabledGenerateButton();
+    }
+})
+
+function hideElements(elementIds) {
+    elementIds.forEach(elementId => {
+        document.getElementById(elementId).style.display = 'none';
     });
 }
 
-function setVisitorCounter(value) {
-    const counter = document.getElementById('visitor-counter');
-    counter.innerHTML = value;
+function showElements(elementIds) {
+    elementIds.forEach(elementId => {
+        document.getElementById(elementId).style.display = 'block';
+    });
 }
 
+function checkRequiredInputs(inputNames) {
+    let isValid = true;
+    inputNames.forEach(inputName => {
+        if (!isFilledInputOrSelect(inputName)) {
+            isValid = false;
+        }
+    });
+    return isValid;
+}
+
+function isFilledInputOrSelect(inputName) {
+    const el = $(`[name="${inputName}"]`);
+    if (el.attr('type') == 'radio') {
+        return $(`input[name="${inputName}"]:checked`).val() != undefined;
+    } else if (el.is('input')) {
+        return el.val() != '';
+    } else if (el.is('select')) {
+        return el.val() != null;
+    }
+}
+
+
+function disabledGenerateButton() {
+    $('#generate-btn').attr('disabled', true);
+}
+
+function enabledGenerateButton() {
+    $('#generate-btn').attr('disabled', false);
+}
+
+function setDataToLocalStorage(key, value) {
+    localStorage.setItem(key, value);
+}
+
+function getDataFromLocalStorage(key) {
+    return localStorage.getItem(key);
+}
+
+function removeDataFromLocalStorage(key) {
+    localStorage.removeItem(key);
+}
+
+function addOptionToSelect(selectName, options) {
+    options.forEach(option => {
+        $(`select[name="${selectName}"]`).append(`<option value="${option}">${option}</option>`);
+    });
+}
+
+function removeOptionFromSelect(selectName) {
+    $(`select[name="${selectName}"]`).empty();
+    $(`select[name="${selectName}"]`).append(`<option value="" disabled selected>Pilih</option>`);
+}
