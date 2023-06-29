@@ -30,6 +30,28 @@ let selectedCollege, selectedDepartement;
 $(document).ready(function () {
     const colleges = Object.keys(universities);
     addOptionToSelect('college_name', colleges);
+
+    var el;
+    window.TomSelect && (new TomSelect(el = document.getElementById('college-select'), {
+        copyClassesToDropdown: false,
+        dropdownClass: 'dropdown-menu ts-dropdown',
+        optionClass:'dropdown-item',
+        controlInput: '<input>',
+        render:{
+            item: function(data,escape) {
+                if( data.customProperties ){
+                    return '<div><span class="dropdown-item-indicator">' + data.customProperties + '</span>' + escape(data.text) + '</div>';
+                }
+                return '<div>' + escape(data.text) + '</div>';
+            },
+            option: function(data,escape){
+                if( data.customProperties ){
+                    return '<div><span class="dropdown-item-indicator">' + data.customProperties + '</span>' + escape(data.text) + '</div>';
+                }
+                return '<div>' + escape(data.text) + '</div>';
+            },
+        },
+    }));
 })
 
 $('select[name="college_name"]').change(function () {
@@ -47,6 +69,28 @@ $('select[name="departement"]').change(function () {
 
     removeOptionFromSelect('major');
     addOptionToSelect('major', majors);
+
+    var el;
+    window.TomSelect && (new TomSelect(el = document.getElementById('major-select'), {
+        copyClassesToDropdown: false,
+        dropdownClass: 'dropdown-menu ts-dropdown',
+        optionClass:'dropdown-item',
+        controlInput: '<input>',
+        render:{
+            item: function(data,escape) {
+                if( data.customProperties ){
+                    return '<div><span class="dropdown-item-indicator">' + data.customProperties + '</span>' + escape(data.text) + '</div>';
+                }
+                return '<div>' + escape(data.text) + '</div>';
+            },
+            option: function(data,escape){
+                if( data.customProperties ){
+                    return '<div><span class="dropdown-item-indicator">' + data.customProperties + '</span>' + escape(data.text) + '</div>';
+                }
+                return '<div>' + escape(data.text) + '</div>';
+            },
+        },
+    }));
 });
 
 $('input[name="status"]').change(function () {

@@ -7,7 +7,7 @@
     <title>Fake Pengumuman SNBT Generator</title>
     <meta
       name="description"
-      content="Aplikasi membuat pengumuman SNBT palsu. Aplikasi ini dibuat untuk keperluan hiburan semata. Jangan disalahgunakan. Cara membuat pengumunan SNBT palsu. Cara membuat fake pengumuman lolos SNBT. Cara membuat pengumuman utbk palsu. Hasil UTBK palsu 2023. Fake SBMPTN 2023"
+      content="Aplikasi membuat pengumuman SNBT palsu. Aplikasi ini dibuat untuk keperluan hiburan semata. Jangan disalahgunakan. Cara membuat pengumunan SNBT palsu. Cara membuat fake pengumuman lolos SNBT. Cara membuat pengumuman utbk palsu. Hasil UTBK palsu 2023. Fake SBMPTN 2023. Fake SNBT 2023"
     />
     <meta
       name="keywords"
@@ -15,7 +15,11 @@
     />
     <meta name="author" content="Muhmmad Rafi Rahman Habibi" />
     <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon" />
-    <link href="./css/tabler.min.css?1674944402" rel="stylesheet" />
+    <link href="./css/tabler.min.css?1674944402" rel="stylesheet"/>
+    <link href="./css/tabler-flags.min.css?1674944402" rel="stylesheet"/>
+    <link href="./css/tabler-payments.min.css?1674944402" rel="stylesheet"/>
+    <link href="./css/tabler-vendors.min.css?1674944402" rel="stylesheet"/>
+    <link href="./css/demo.min.css?1674944402" rel="stylesheet"/>
     <style>
       @import url("https://rsms.me/inter/inter.css");
       :root {
@@ -143,7 +147,7 @@
             </div>
             <div class="mb-3" id="collegeNameContainer">
               <label class="form-label required">Nama Universitas</label>
-              <select class="form-select" name="college_name">
+              <select type="text" class="form-select" name="college_name" id="college-select">
                 <option value="" selected disabled>Pilih</option>
               </select>
             </div>
@@ -155,7 +159,7 @@
             </div>
             <div class="mb-3" id="majorContainer">
               <label class="form-label required">Program Studi</label>
-              <select class="form-select" name="major">
+              <select class="form-select" name="major" id="major-select">
                 <option value="" selected disabled>Pilih</option>
               </select>
             </div>
@@ -314,6 +318,7 @@
     </div>
     <script src="./js/tabler.min.js?1674944402" defer></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./plugins/tom-select/dist/js/tom-select.base.min.js" defer></script>
     <script src="./js/ptn-list.js"></script>
     <script src="./js/main.js"></script>
   </body>
