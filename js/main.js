@@ -67,6 +67,20 @@ $('input').add('select').on('input', function () {
     }
 })
 
+$('#generate-btn').click(function() {
+    const isAccepted = $('input[name="status"]:checked').val() == 'accepted';
+    const requiredInputs = isAccepted ? requiredInputsIfAccepted : requiredInputsIfRejected;
+
+    const values = getInputValues(requiredInputs)
+    setObjectToLocalStorage(values)
+
+    if (isAccepted) {
+        redirectToFile('accepted.html')
+    } else {
+        redirectToFile('rejected.html')
+    }
+})
+
 function hideElements(elementIds) {
     elementIds.forEach(elementId => {
         document.getElementById(elementId).style.display = 'none';
@@ -109,16 +123,10 @@ function enabledGenerateButton() {
     $('#generate-btn').attr('disabled', false);
 }
 
-function setDataToLocalStorage(key, value) {
-    localStorage.setItem(key, value);
-}
-
-function getDataFromLocalStorage(key) {
-    return localStorage.getItem(key);
-}
-
-function removeDataFromLocalStorage(key) {
-    localStorage.removeItem(key);
+function setObjectToLocalStorage(object) {
+    Object.keys(object).forEach(key => {
+        localStorage.setItem(key, object[key]);
+    });
 }
 
 function addOptionToSelect(selectName, options) {
@@ -130,4 +138,25 @@ function addOptionToSelect(selectName, options) {
 function removeOptionFromSelect(selectName) {
     $(`select[name="${selectName}"]`).empty();
     $(`select[name="${selectName}"]`).append(`<option value="" disabled selected>Pilih</option>`);
+}
+
+function getInputValues(inputNames) {
+    const result = {}
+    inputNames.forEach(name => {
+        const el = $(`[name="${name}"]`);
+        let value = '';
+        if (el.attr('type') == 'radio') {
+            value =  $(`input[name="${name}"]:checked`).val();
+        } else if (el.is('input')) {
+            value =  el.val()
+        } else if (el.is('select')) {
+            value =  el.val()
+        }
+        result[name] = value
+    }) 
+    return result
+}
+
+function redirectToFile(fileName) {
+    window.location.href = `${fileName}`;
 }
