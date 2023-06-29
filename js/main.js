@@ -2,14 +2,14 @@ const undisplayedElementIfRejected = [
     'birthDateContainer',
     'collegeNameContainer',
     'departementContainer',
-    'majorContainer'
+    'majorContainer',
+    'isKipContainer',
 ]
 
 const requiredInputsIfRejected = [
     'status',
     'participant_number',
     'name',
-    'is_kip'
 ]
 
 const requiredInputsIfAccepted = [
