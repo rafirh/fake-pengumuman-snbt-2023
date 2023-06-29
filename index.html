@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Kalkulator Rata-rata Skor UTBK</title>
+    <meta
+      name="description"
+      content="Aplikasi kalkulator untuk menghitung rata-rata UTBK. Dengan aplikasi ini, kamu bisa menghitung rata-rata skor UTBK kamu."
+    />
+    <meta
+      name="keywords"
+      content="kalkulator, UTBK, rata-rata, ujian, masuk perguruan tinggi, cara mnghiturng skor utbk, cara melihat skor utbk, skor utbk 2023, sertfikat UTBK, cek nilai utbk, cara melihat skor UTBK 2023, nilai UTBK"
+    />
+    <meta name="author" content="Muhmmad Rafi Rahman Habibi" />
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon" />
+    <link href="./css/tabler.min.css?1674944402" rel="stylesheet" />
+    <link href="./css/tabler-flags.min.css?1674944402" rel="stylesheet" />
+    <link href="./css/tabler-payments.min.css?1674944402" rel="stylesheet" />
+    <link href="./css/tabler-vendors.min.css?1674944402" rel="stylesheet" />
+    <link href="./css/demo.min.css?1674944402" rel="stylesheet" />
+    <style>
+      @import url("https://rsms.me/inter/inter.css");
+      :root {
+        --tblr-font-sans-serif: "Inter Var", -apple-system, BlinkMacSystemFont, San Francisco, Segoe UI, Roboto,
+          Helvetica Neue, sans-serif;
+      }
+      body {
+        font-feature-settings: "cv03", "cv04", "cv11";
+      }
+    </style>
+  </head>
+  <body class="d-flex flex-column">
+    <script src="./js/demo-theme.min.js?1674944402"></script>
+    <div class="page">
+      <div class="container container-tight py-4">
+        <div class="text-center mb-4">
+          <a href="#" class="navbar-brand navbar-brand-autodark"><img src="./img/logo.png" height="36" alt="" /></a>
+        </div>
+        <div class="card card-md">
+          <div class="card-body">
+            <h2 class="h2 text-center mb-4">Kalkulator Rata-rata Skor UTBK</h2>
+            <div class="mb-3">
+              <label class="form-label">Kemampuan Penalaran Umum</label>
+              <input
+                type="number"
+                class="form-control"
+                placeholder="Masukkan nilai kemampuan penalaran umum"
+                name="kpu_input"
+              />
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Kemampuan Kuantitatif</label>
+              <input
+                type="number"
+                class="form-control"
+                placeholder="Masukkan nilai kemampuan kuantitatif"
+                name="kku_input"
+              />
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Pengetahuan dan Pemahaman Umum</label>
+              <input
+                type="number"
+                class="form-control"
+                placeholder="Masukkan nilai pengetahuan dan pemahaman umum"
+                name="ppu_input"
+              />
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Kemampuan Membaca dan Menulis</label>
+              <input
+                type="number"
+                class="form-control"
+                placeholder="Masukkan nilai kemampuan memahami bacaan dan menulis"
+                name="kmm_input"
+              />
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Literasi Bahasa Indonesia</label>
+              <input
+                type="number"
+                class="form-control"
+                placeholder="Masukkan nilai literasi bahasa indonesia"
+                name="lbind_input"
+              />
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Literasi Bahasa Inggris</label>
+              <input
+                type="number"
+                class="form-control"
+                placeholder="Masukkan nilai literasi bahasa inggris"
+                name="lbing_input"
+              />
+            </div>
+            <div class="mb-2">
+              <label class="form-label">Penalaran Matematika</label>
+              <input
+                type="number"
+                class="form-control"
+                placeholder="Masukkan nilai penalaran matematika"
+                name="pm_input"
+              />
+            </div>
+            <div class="text-muted fs-5 mb-3">*Gunakan titik (.) untuk bilangan desimal</div>
+            <div class="text-center">
+              <div class="form-selectgroup form-selectgroup-pills">
+                <label class="form-selectgroup-item">
+                  <input type="radio" name="method" value="first" class="form-selectgroup-input" checked />
+                  <span class="form-selectgroup-label">Cara 1</span>
+                </label>
+                <label class="form-selectgroup-item">
+                  <input type="radio" name="method" value="second" class="form-selectgroup-input" />
+                  <span class="form-selectgroup-label">Cara 2</span>
+                </label>
+              </div>
+              <span
+                class="form-help ms-1"
+                data-bs-toggle="popover"
+                data-bs-placement="top"
+                data-bs-content="<p>Cara 1: Menjumlahkan semua skor kemudian dibagi dengan 7.</p><p>Cara 2: Menjumlahkan rata-rata skor masing-masing sub tes kemudian dibagi dengan 3.</p>"
+                data-bs-html="true"
+                aria-describedby="popover429923"
+                >?</span>
+            </div>
+            <div class="form-footer">
+              <button id="count-btn" class="btn btn-primary w-100">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="icon icon-tabler icon-tabler-calculator"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  stroke-width="2"
+                  stroke="currentColor"
+                  fill="none"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                  <path d="M4 3m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z"></path>
+                  <path d="M8 7m0 1a1 1 0 0 1 1 -1h6a1 1 0 0 1 1 1v1a1 1 0 0 1 -1 1h-6a1 1 0 0 1 -1 -1z"></path>
+                  <path d="M8 14l0 .01"></path>
+                  <path d="M12 14l0 .01"></path>
+                  <path d="M16 14l0 .01"></path>
+                  <path d="M8 17l0 .01"></path>
+                  <path d="M12 17l0 .01"></path>
+                  <path d="M16 17l0 .01"></path>
+                </svg>
+                Hitung
+              </button>
+            </div>
+          </div>
+          <div class="hr-text mt-3 mt-sm-0">Rata-rata Skor UTBK Anda</div>
+          <div class="card-body">
+            <div class="row text-center fst-italic">
+              <h1 id="result">0</h1>
+            </div>
+          </div>
+        </div>
+        <div class="text-center text-muted mt-3">
+          v1.3.0 - Made with <span class="text-danger">❤</span> by Rafi Rahman &copy; 2023
+        </div>
+        <div class="btn-list justify-content-center mt-2">
+          <a class="btn btn-outline-secondary btn-icon rounded-circle" data-bs-toggle="tooltip" title="LinkedIn" href="https://www.linkedin.com/in/rfii/" target="_blank">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-linkedin" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+              <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z"></path>
+              <path d="M8 11l0 5"></path>
+              <path d="M8 8l0 .01"></path>
+              <path d="M12 16l0 -5"></path>
+              <path d="M16 16v-3a2 2 0 0 0 -4 0"></path>
+            </svg>
+          </a>
+          <a class="btn btn-outline-secondary btn-icon rounded-circle" data-bs-toggle="tooltip" title="Github" href="https://github.com/rafirh" target="_blank">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+              <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5"></path>
+            </svg>
+          </a>
+          <a class="btn btn-outline-secondary btn-icon rounded-circle" data-bs-toggle="tooltip" title="Instagram" href="https://www.instagram.com/rqfir/" target="_blank">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+              <path d="M4 4m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z"></path>
+              <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"></path>
+              <path d="M16.5 7.5l0 .01"></path>
+            </svg>
+          </a>
+          <a class="btn btn-outline-secondary btn-icon rounded-circle" data-bs-toggle="tooltip" title="WhatsApp" href="https://wa.me/628885477865" target="_blank">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-whatsapp" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+              <path d="M3 21l1.65 -3.8a9 9 0 1 1 3.4 2.9l-5.05 .9"></path>
+              <path d="M9 10a.5 .5 0 0 0 1 0v-1a.5 .5 0 0 0 -1 0v1a5 5 0 0 0 5 5h1a.5 .5 0 0 0 0 -1h-1a.5 .5 0 0 0 0 1"></path>
+            </svg>
+          </a>
+        </div>
+        <div class="text-center text-muted mt-2">
+          Total pengunjung: <span id="visitor-counter">0</span>
+        </div>
+      </div>
+    </div>
+    <script src="./js/tabler.min.js?1674944402" defer></script>
+    <script src="./js/demo.min.js?1674944402" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

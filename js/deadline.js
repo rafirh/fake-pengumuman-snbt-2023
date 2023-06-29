@@ -1,0 +1,1 @@
+var snbt_current_time, snbt_deadline_time, snbt_status, dataurl;snbt_current_time='Thu Jun 29 2023 02:01:45 GMT+0000';snbt_deadline_time='20 Jun 2023 15:00:00 +0700';deadline_status='sudah';dataurl='https://storage.googleapis.com/pengumuman-snbt-2023-prod-uj5f8';
