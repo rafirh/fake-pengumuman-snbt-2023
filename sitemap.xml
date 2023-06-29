@@ -6,4 +6,16 @@
         <changefreq>daily</changefreq>
         <priority>0.8</priority>
             </url>
+    <url>
+        <loc>https://fake-pengumuman-snbt-2023.vercel.app/accepted.html</loc>
+        <lastmod>2023-06-29T13:05:08+07:00</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+            </url>
+    <url>
+        <loc>https://fake-pengumuman-snbt-2023.vercel.app/rejected.html</loc>
+        <lastmod>2023-06-29T13:05:08+07:00</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+            </url>
 </urlset>
