@@ -52,6 +52,10 @@ $(document).ready(function () {
             },
         },
     }));
+
+    setTimeout(function() {
+        $('#ads-modal').modal('show');
+    }, 1000);
 })
 
 $('select[name="college_name"]').change(function () {
