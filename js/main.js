@@ -57,9 +57,9 @@ $(document).ready(function () {
     //     $('#ads-modal').modal('show');
     // }, 1000);
 
-    setTimeout(function() {
-        $('#showoff-modal').modal('show');
-    }, 1000);
+    // setTimeout(function() {
+    //     $('#showoff-modal').modal('show');
+    // }, 1000);
 })
 
 $('select[name="college_name"]').change(function () {
