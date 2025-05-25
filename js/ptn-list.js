@@ -121,7 +121,7 @@ const universities = {
             "LIBERAL ARTS"
         ] //https://www.hotcourses.co.id/study/provider-result.html?collegeId=72040#search&countryId=211&nationCode=88&nationCntryCode=88&studyAbroad=N&studyOnline=N&studyCross=N&studyDomestic=N&studyPartTime=N&orderBy=POPULAR&collegeId=72040&manStdyAbrdFlg=N&restRefineFlag=Y&pageNo=16
     },
-    "100 - UNIVERSITAS AVATAR": {
+    "1100 - UNIVERSITAS AVATAR": {
         "SAINTEK": [
             "PAWANG HUJAN",
             "PENGENDALI ANGIN",
@@ -133,7 +133,7 @@ const universities = {
             "ILMU POLITIK LANGIT"
         ]
     },
-    "101 - UNIVERSITAS PERWIBUAN": {
+    "1101 - UNIVERSITAS PERWIBUAN": {
         "SAINTEK": [
             "ILMU JEJEPANGAN",
             "PENGENDALI LOLI",
@@ -145,7 +145,7 @@ const universities = {
             "ILMU HUBUNGAN ANTAR WIBU"
         ]
     },
-    "102 - UNIVERSITAS PETERNAKAN IKAN LELE": {
+    "1102 - UNIVERSITAS PETERNAKAN IKAN LELE": {
         "SAINTEK": [
             "PENDIDIKAN TERNAK LELE",
             "TEKNIK BUDIDAYA LELE",
@@ -156,7 +156,7 @@ const universities = {
             "LELEKOLOGI"
         ]
     },
-    "103 - UNIVERSITAS ZEUS INDONESIA": {
+    "1103 - UNIVERSITAS ZEUS INDONESIA": {
         "SAINTEK": [
             "TEKNIK PAWANG PETIR",
             "ILMU PETIR MERAH CONNECT",
@@ -169,7 +169,7 @@ const universities = {
             "HUKUM JACKPOT"
         ]
     },
-    "104 - INSTITUT PRAGMATIC INDONESIA": {
+    "1104 - INSTITUT PRAGMATIC INDONESIA": {
         "SAINTEK": [
             "TEKNIK PERJEKPOTAN",
             "TEKNIK WILD WEST GOLD",
@@ -178,7 +178,7 @@ const universities = {
             "ILMU REKAYASA LOLIPOP"
         ]
     },
-    "105 - UNIVERSITAS PETERNAKAN IKAN CUPANG": {
+    "1105 - UNIVERSITAS PETERNAKAN IKAN CUPANG": {
         "SAINTEK": [
             "PENDIDIKAN TERNAK CUPANG",
             "TEKNIK ADU CUPANG",
@@ -189,7 +189,7 @@ const universities = {
             "CUPANG-CUPANGAN"
         ]
     },
-    "106 - KONOHA UNIVERSITY": {
+    "1106 - KONOHA UNIVERSITY": {
         "SAINTEK": [
             "PENDIDIKAN WIBU",
             "TEKNIK PERLOLIAN",
@@ -200,7 +200,7 @@ const universities = {
             "ILMU PERWIBUAN"
         ]
     },
-    "107 - STANFORD UNIVERSITY": {
+    "1107 - STANFORD UNIVERSITY": {
         "SAINTEK & SOSHUM": [
             "1071002 - INTERNATIONAL RELATIONS",
             "1071003 - PSYCHOLOGY",
@@ -259,7 +259,7 @@ const universities = {
             "1071056 - SLAVIC LANGUAGES AND LITERATURES"
         ],//https://www.hotcourses.co.id/study/provider-result.html?collegeId=72102#search&countryId=211&nationCode=88&nationCntryCode=88&studyAbroad=N&studyOnline=N&studyCross=N&studyDomestic=N&studyPartTime=N&orderBy=POPULAR&collegeId=72102&manStdyAbrdFlg=N&restRefineFlag=Y&pageNo=15
     },
-    "108 - UNIVERSITY OF OXFORD": {
+    "1108 - UNIVERSITY OF OXFORD": {
         "SAINTEK & SOSHUM": [
             "1081002 - ECONOMICS AND MANAGEMENT",
             "1081003 - ARABIC AND ISLAMIC STUDIES",
@@ -310,7 +310,7 @@ const universities = {
             "P3A"*/
         ], //https://www.hotcourses.co.id/study/provider-result.html?collegeId=3757#search&countryId=210&nationCode=88&nationCntryCode=88&studyAbroad=N&studyOnline=N&studyCross=N&studyDomestic=N&studyPartTime=N&orderBy=POPULAR&collegeId=3757&manStdyAbrdFlg=N&restRefineFlag=Y&pageNo=15
     },
-    "109 - HARVARD UNIVERSITY": {
+    "1109 - HARVARD UNIVERSITY": {
         "SAINTEK & SOSHUM": [
             "1091001 - APPLIED MATHEMATICS",
             "1091002 - COMPUTER SCIENCE",
@@ -322,7 +322,7 @@ const universities = {
             "1091008 - LIBERAL ARTS"
         ]//https://www.hotcourses.co.id/study/provider-result.html?collegeId=72040#search&countryId=211&nationCode=88&nationCntryCode=88&studyAbroad=N&studyOnline=N&studyCross=N&studyDomestic=N&studyPartTime=N&orderBy=POPULAR&collegeId=72040&manStdyAbrdFlg=N&restRefineFlag=Y&pageNo=16
     },
-    "110 - UNIVERSITAS PETERNAKAN IKAN LELE": {
+    "1110 - UNIVERSITAS PETERNAKAN IKAN LELE": {
         "SAINTEK": [
             "1101001 - PENDIDIKAN TERNAK LELE",
             "1101002 - TEKNIK BUDIDAYA LELE",
@@ -333,7 +333,7 @@ const universities = {
             "1101004 - LELEKOLOGI"
         ]
     },
-    "111 - UNIVERSITAS SYIAH KUALA": {
+    "1111 - UNIVERSITAS SYIAH KUALA": {
         "SAINTEK": [
             "1111014 - PENDIDIKAN DOKTER HEWAN",
             "1111022 - TEKNIK SIPIL",
@@ -402,7 +402,7 @@ const universities = {
             "1112234 - MANAJEMEN (PSDKU GAYO LUES)"
         ]
     },
-    "112 - UNIVERSITAS MALIKUSSALEH": {
+    "1112 - UNIVERSITAS MALIKUSSALEH": {
         "SAINTEK": [
             "1121016 - TEKNIK SIPIL",
             "1121024 - TEKNIK MESIN",
@@ -438,7 +438,7 @@ const universities = {
             "1122132 - ILMU ADMINISTRASI NIAGA"
         ]
     },
-    "113 - UNIVERSITAS TEUKU UMAR": {
+    "1113 - UNIVERSITAS TEUKU UMAR": {
         "SAINTEK": [
             "1131011 - TEKNIK SIPIL",
             "1131026 - TEKNIK MESIN",
@@ -462,7 +462,7 @@ const universities = {
             "1132076 - ILMU HUKUM"
         ]
     },
-    "114 - UNIVERSITAS SAMUDRA": {
+    "1114 - UNIVERSITAS SAMUDRA": {
         "SAINTEK": [
             "1141013 - AGROTEKNOLOGI",
             "1141021 - AGRIBISNIS",
@@ -492,7 +492,7 @@ const universities = {
             "1142105 - AKUNTANSI"
         ]
     },
-    "115 - ISBI ACEH": {
+    "1115 - ISBI ACEH": {
         "SOSHUM": [
             "1152011 - SENI KARAWITAN",
             "1152026 - SENI TARI",
@@ -502,7 +502,7 @@ const universities = {
             "1152065 - DESAIN KOMUNIKASI VISUAL"
         ]
     },
-    "116 - UNIVERSITAS ISLAM NEGERI AR-RANIRY": {
+    "1116 - UNIVERSITAS ISLAM NEGERI AR-RANIRY": {
         "SAINTEK": [
             "1161017 - PENDIDIKAN TEKNIK ELEKTRO",
             "1161025 - PENDIDIKAN TEKNOLOGI INFORMATIKA",
@@ -523,7 +523,7 @@ const universities = {
             "1162091 - PSIKOLOGI"
         ]
     },
-    "121 - UNIVERSITAS SUMATERA UTARA": {
+    "1121 - UNIVERSITAS SUMATERA UTARA": {
         "SAINTEK": [
             "1211015 - PENDIDIKAN DOKTER",
             "1211023 - TEKNIK SIPIL",
@@ -576,7 +576,7 @@ const universities = {
             "1212235 - PSIKOLOGI"
         ]
     },
-    "122 - UNIVERSITAS NEGERI MEDAN": {
+    "1122 - UNIVERSITAS NEGERI MEDAN": {
         "SAINTEK": [
             "1221017 - PENDIDIKAN MATEMATIKA",
             "1221025 - PENDIDIKAN BIOLOGI",
@@ -631,7 +631,7 @@ const universities = {
             "1222334 - ILMU EKONOMI"
         ]
     },
-    "123 - UNIVERSITAS ISLAM NEGERI SUMATERA UTARA": {
+    "1123 - UNIVERSITAS ISLAM NEGERI SUMATERA UTARA": {
         "SAINTEK": [
             "1231012 - ILMU KOMPUTER",
             "1231027 - SISTEM INFORMASI",
@@ -645,7 +645,7 @@ const universities = {
             "1232023 - ILMU KOMUNIKASI"
         ]
     },
-    "131 - UNIVERSITAS RIAU": {
+    "1131 - UNIVERSITAS RIAU": {
         "SAINTEK": [
             "1311016 - FISIKA",
             "1311024 - KIMIA",
@@ -704,7 +704,7 @@ const universities = {
             "1312236 - PAUD"
         ]
     },
-    "132 - UNIVERSITAS ISLAM NEGERI SULTAN SYARIF KASIM": {
+    "1132 - UNIVERSITAS ISLAM NEGERI SULTAN SYARIF KASIM": {
         "SAINTEK": [
             "1321011 - ILMU PETERNAKAN",
             "1321026 - MATEMATIKA",
@@ -726,7 +726,7 @@ const universities = {
             "1322223 - ILMU KOMUNIKASI"
         ]
     },
-    "133 - UNIVERSITAS MARITIM RAJA ALI HAJI": {
+    "1133 - UNIVERSITAS MARITIM RAJA ALI HAJI": {
         "SAINTEK": [
             "1331013 - TEKNIK ELEKTRO",
             "1331021 - TEKNIK INFORMATIKA",
@@ -751,7 +751,7 @@ const universities = {
             "1332094 - ILMU HUBUNGAN INTERNASIONAL"
         ]
     },
-    "141 - UNIVERSITAS ANDALAS": {
+    "1141 - UNIVERSITAS ANDALAS": {
         "SAINTEK": [
             "1411017 - AGRIBISNIS",
             "1411025 - AGROEKOTEKNOLOGI",
@@ -803,7 +803,7 @@ const universities = {
             "1412172 - EKONOMI PEMBANGUNAN (KAMPUS 2 PAYAKUMBUH)"
         ]
     },
-    "142 - UNIVERSITAS NEGERI PADANG": {
+    "1142 - UNIVERSITAS NEGERI PADANG": {
         "SAINTEK": [
             "1421012 - PENDIDIKAN MATEMATIKA",
             "1421027 - MATEMATIKA (NK)",
@@ -865,7 +865,7 @@ const universities = {
             "1422354 - PENDIDIKAN TARI"
         ]
     },
-    "143 - ISI PADANG PANJANG": {
+    "1143 - ISI PADANG PANJANG": {
         "SOSHUM": [
             "1432017 - SENI KARAWITAN",
             "1432025 - SENI TARI",
@@ -880,7 +880,7 @@ const universities = {
             "1432114 - PENDIDIKAN KRIYA"
         ]
     },
-    "151 - UNIVERSITAS JAMBI": {
+    "1151 - UNIVERSITAS JAMBI": {
         "SAINTEK": [
             "1511011 - PEND. KIMIA",
             "1511026 - PEND. MATEMATIKA",
@@ -938,7 +938,7 @@ const universities = {
             "1512223 - SENI DRAMA TARI DAN MUSIK"
         ]
     },
-    "161 - UNIVERSITAS BENGKULU": {
+    "1161 - UNIVERSITAS BENGKULU": {
         "SAINTEK": [
             "1611012 - AGROEKOTEKNOLOGI",
             "1611027 - KEHUTANAN",
@@ -988,7 +988,7 @@ const universities = {
             "1612174 - JURNALISTIK"
         ]
     },
-    "171 - UNIVERSITAS SRIWIJAYA": {
+    "1171 - UNIVERSITAS SRIWIJAYA": {
         "SAINTEK": [
             "1711013 - TEKNIK SIPIL",
             "1711021 - TEKNIK PERTAMBANGAN",
@@ -1050,7 +1050,7 @@ const universities = {
             "1712183 - ILMU HUBUNGAN INTERNASIONAL "
         ]
     },
-    "172 - UNIVERSITAS ISLAM NEGERI RADEN FATAH": {
+    "1172 - UNIVERSITAS ISLAM NEGERI RADEN FATAH": {
         "SAINTEK": [
             "1721015 - PENDIDIKAN MATEMATIKA",
             "1721023 - PENDIDIKAN BIOLOGI",
@@ -1065,7 +1065,7 @@ const universities = {
             "1722227 - ILMU KOMUNIKASI"
         ]
     },
-    "181 - UNIVERSITAS BANGKA BELITUNG": {
+    "1181 - UNIVERSITAS BANGKA BELITUNG": {
         "SAINTEK": [
             "1811014 - TEKNIK MESIN",
             "1811022 - TEKNIK ELEKTRO",
@@ -1090,7 +1090,7 @@ const universities = {
             "1812072 - EKONOMI"
         ]
     },
-    "191 - UNIVERSITAS LAMPUNG": {
+    "1191 - UNIVERSITAS LAMPUNG": {
         "SAINTEK": [
             "1911015 - AGROTEKNOLOGI",
             "1911023 - AGRIBISNIS",
@@ -1153,7 +1153,7 @@ const universities = {
             "1912235 - PENDIDIKAN MUSIK"
         ]
     },
-    "192 - INSTITUT TEKNOLOGI SUMATERA": {
+    "1192 - INSTITUT TEKNOLOGI SUMATERA": {
         "SAINTEK": [
             "1921017 - TEKNIK GEOMATIKA",
             "1921025 - TEKNIK ELEKTRO",
@@ -1178,7 +1178,7 @@ const universities = {
             "1921226 - TEKNIK BIOSISTEM"
         ]
     },
-    "311 - UNIVERSITAS SULTAN AGENG TIRTAYASA": {
+    "1311 - UNIVERSITAS SULTAN AGENG TIRTAYASA": {
         "SAINTEK": [
             "3111014 - TEKNIK MESIN",
             "3111022 - TEKNIK ELEKTRO",
@@ -1220,7 +1220,7 @@ const universities = {
             "3112192 - ILMU PEMERINTAHAN   "
         ]
     },
-    "321 - UNIVERSITAS INDONESIA": {
+    "1321 - UNIVERSITAS INDONESIA": {
         "SAINTEK": [
             "3211015 - PENDIDIKAN DOKTER",
             "3211023 - PENDIDIKAN DOKTER GIGI",
@@ -1290,7 +1290,7 @@ const universities = {
             "3212324 - BISNIS ISLAM    "
         ]
     },
-    "322 - UNIVERSITAS ISLAM NEGERI JAKARTA": {
+    "1322 - UNIVERSITAS ISLAM NEGERI JAKARTA": {
         "SAINTEK": [
             "3221017 - SOSIAL EKONOMI PERTANIAN / AGRIBISNIS",
             "3221025 - TEKNIK INFORMATIKA",
@@ -1321,7 +1321,7 @@ const universities = {
             "3222454 - BAHASA DAN SASTRA INGGRIS"
         ]
     },
-    "323 - UNIVERSITAS NEGERI JAKARTA": {
+    "1323 - UNIVERSITAS NEGERI JAKARTA": {
         "SAINTEK": [
             "3231012 - PENDIDIKAN MATEMATIKA",
             "3231027 - PENDIDIKAN FISIKA",
@@ -1386,7 +1386,7 @@ const universities = {
         ]
     },
     //BATAS FIX
-    "324 - UPN \"VETERAN\" JAKARTA": {
+    "1324 - UPN \"VETERAN\" JAKARTA": {
         "SAINTEK": [
             "3241014 - TEKNIK MESIN",
             "3241022 - TEKNIK PERKAPALAN",
@@ -1409,7 +1409,7 @@ const universities = {
             "3242087 - ILMU POLITIK"
         ]
     },
-    "331 - UNIVERSITAS SINGAPERBANGSA KARAWANG": {
+    "1331 - UNIVERSITAS SINGAPERBANGSA KARAWANG": {
         "SAINTEK": [
             "3311016 - AGROTEKNOLOGI",
             "3311024 - TEKNIK INDUSTRI",
@@ -1432,7 +1432,7 @@ const universities = {
             "3312097 - ILMU KOMUNIKASI     "
         ]
     },
-    "332 - INSTITUT TEKNOLOGI BANDUNG": {
+    "1332 - INSTITUT TEKNOLOGI BANDUNG": {
         "SAINTEK": [
             "3321011 - FAK. ILMU DAN TEKNOLOGI KEBUMIAN (FITB)",
             "13321002 - FAK. TEKNIK PERTAMB. & PERMINYAKAN (FTTM)",
@@ -1456,7 +1456,7 @@ const universities = {
             "3322037 - FAKULTAS SENIRUPA DAN DESAIN (FSRD) - KAMPUS CIREBON"
         ]
     },
-    "333 - UNIVERSITAS PADJADJARAN": {
+    "1333 - UNIVERSITAS PADJADJARAN": {
         "SAINTEK": [
             "3331013 - PENDIDIKAN DOKTER",
             "3331021 - MATEMATIKA",
@@ -1521,7 +1521,7 @@ const universities = {
             "3332345 - ILMU KOMUNIKASI PSDKU PANGANDARAN   "
         ]
     },
-    "334 - UNIVERSITAS PENDIDIKAN INDONESIA": {
+    "1334 - UNIVERSITAS PENDIDIKAN INDONESIA": {
         "SAINTEK": [
             "3341015 - PENDIDIKAN MATEMATIKA",
             "3341023 - PENDIDIKAN FISIKA",
@@ -1608,7 +1608,7 @@ const universities = {
             "3342587 - DESAIN KOMUNIKASI VISUAL"
         ]
     },
-    "335 - ISBI BANDUNG": {
+    "1335 - ISBI BANDUNG": {
         "SOSHUM": [
             "3352013 - TARI",
             "3352021 - KARAWITAN",
@@ -1617,7 +1617,7 @@ const universities = {
             "3352052 - ANTROPOLOGI BUDAYA"
         ]
     },
-    "336 - UNIVERSITAS ISLAM NEGERI SUNAN GUNUNG DJATI": {
+    "1336 - UNIVERSITAS ISLAM NEGERI SUNAN GUNUNG DJATI": {
         "SAINTEK": [
             "3361027 - MATEMATIKA",
             "3361035 - BIOLOGI",
@@ -1638,7 +1638,7 @@ const universities = {
             "3362093 - PSIKOLOGI"
         ]
     },
-    "341 - INSTITUT PERTANIAN BOGOR": {
+    "1341 - INSTITUT PERTANIAN BOGOR": {
         "SAINTEK": [
             "3411017 - AGRIBISNIS",
             "3411025 - AGRONOMI DAN HORTIKULTURA",
@@ -1681,7 +1681,7 @@ const universities = {
             "3411497 - AKTUARIA"
         ]
     },
-    "342 - UNIVERSITAS SILIWANGI": {
+    "1342 - UNIVERSITAS SILIWANGI": {
         "SAINTEK": [
             "3421012 - PENDIDIKAN MATEMATIKA",
             "3421027 - PENDIDIKAN BIOLOGI",
@@ -1709,7 +1709,7 @@ const universities = {
             "3422135 - PENDIDIKAN BAHASA INGGRIS "
         ]
     },
-    "351 - UNIVERSITAS JENDERAL SOEDIRMAN": {
+    "1351 - UNIVERSITAS JENDERAL SOEDIRMAN": {
         "SAINTEK": [
             "3511011 - BIOLOGI",
             "3511026 - KIMIA",
@@ -1754,7 +1754,7 @@ const universities = {
             "3512157 - PENDIDIKAN BAHASA INGGRIS"
         ]
     },
-    "352 - UNIVERSITAS TIDAR": {
+    "1352 - UNIVERSITAS TIDAR": {
         "SAINTEK": [
             "3521013 - AGROTEKNOLOGI",
             "3521021 - TEKNIK SIPIL",
@@ -1777,7 +1777,7 @@ const universities = {
             "3522086 - AKUNTANSI"
         ]
     },
-    "353 - UNIVERSITAS SEBELAS MARET": {
+    "1353 - UNIVERSITAS SEBELAS MARET": {
         "SAINTEK": [
             "3531015 - KEDOKTERAN",
             "3531023 - PSIKOLOGI",
@@ -1849,7 +1849,7 @@ const universities = {
             "3532363 - PENDIDIKAN EKONOMI"
         ]
     },
-    "354 - ISI SURAKARTA": {
+    "1354 - ISI SURAKARTA": {
         "SOSHUM": [
             "3542013 - SENI TARI",
             "3542021 - ETNOMUSIKOLOGI",
@@ -1864,7 +1864,7 @@ const universities = {
             "3542117 - SENI PEDALANGAN"
         ]
     },
-    "355 - UNIVERSITAS DIPONEGORO": {
+    "1355 - UNIVERSITAS DIPONEGORO": {
         "SAINTEK": [
             "3551012 - KESEHATAN MASYARAKAT",
             "3551027 - KEDOKTERAN",
@@ -1921,7 +1921,7 @@ const universities = {
             "3552174 - EKONOMI ISLAM"
         ]
     },
-    "356 - UNIVERSITAS NEGERI SEMARANG": {
+    "1356 - UNIVERSITAS NEGERI SEMARANG": {
         "SAINTEK": [
             "3561014 - PENDIDIKAN MATEMATIKA",
             "3561022 - PENDIDIKAN FISIKA",
@@ -1993,7 +1993,7 @@ const universities = {
             "3562443 - PENDIDIKAN KESEJAHTERAAN KELUARGA"
         ]
     },
-    "357 - UNIVERSITAS ISLAM NEGERI WALISONGO": {
+    "1357 - UNIVERSITAS ISLAM NEGERI WALISONGO": {
         "SAINTEK": [
             "3571055 - GIZI",
             "3571063 - MATEMATIKA",
@@ -2010,7 +2010,7 @@ const universities = {
             "3572236 - MANAJEMEN   "
         ]
     },
-    "361 - UNIVERSITAS GADJAH MADA": {
+    "1361 - UNIVERSITAS GADJAH MADA": {
         "SAINTEK": [
             "3611012 - BIOLOGI",
             "3611027 - FARMASI",
@@ -2083,7 +2083,7 @@ const universities = {
             "3612232 - PARIWISATA"
         ]
     },
-    "362 - UNIVERSITAS NEGERI YOGYAKARTA": {
+    "1362 - UNIVERSITAS NEGERI YOGYAKARTA": {
         "SAINTEK": [
             "3621014 - PENDIDIKAN MATEMATIKA",
             "3621022 - PENDIDIKAN FISIKA",
@@ -2145,7 +2145,7 @@ const universities = {
             "3622385 - PSIKOLOGI"
         ]
     },
-    "363 - UPN \"VETERAN\" YOGYAKARTA": {
+    "1363 - UPN \"VETERAN\" YOGYAKARTA": {
         "SAINTEK": [
             "3631016 - TEKNIK GEOLOGI",
             "3631024 - TEKNIK PERTAMBANGAN",
@@ -2171,7 +2171,7 @@ const universities = {
             "3632074 - HUBUNGAN MASYARAKAT"
         ]
     },
-    "364 - ISI YOGYAKARTA": {
+    "1364 - ISI YOGYAKARTA": {
         "SOSHUM": [
             "3642014 - SENI TARI",
             "3642022 - SENI MUSIK",
@@ -2192,7 +2192,7 @@ const universities = {
             "3642173 - TATA KELOLA SENI    "
         ]
     },
-    "365 - UNIVERSITAS ISLAM NEGERI SUNAN KALIJAGA": {
+    "1365 - UNIVERSITAS ISLAM NEGERI SUNAN KALIJAGA": {
         "SAINTEK": [
             "3651013 - MATEMATIKA",
             "3651021 - FISIKA",
@@ -2215,7 +2215,7 @@ const universities = {
             "3652287 - ILMU KESEJAHTERAAN SOSIAL (IKS)"
         ]
     },
-    "371 - UNIVERSITAS JEMBER": {
+    "1371 - UNIVERSITAS JEMBER": {
         "SAINTEK": [
             "3711013 - AGROTEKNOLOGI / AGROEKOTEKNOLOGI",
             "3711021 - AGRIBISNIS",
@@ -2279,7 +2279,7 @@ const universities = {
             "3712241 - PEND. GURU SEKOLAH DASAR KAMPUS BONDOWOSO"
         ]
     },
-    "372 - UNIVERSITAS BRAWIJAYA": {
+    "1372 - UNIVERSITAS BRAWIJAYA": {
         "SAINTEK": [
             "3721015 - MANAJEMEN SUMBERDAYA PERAIRAN",
             "3721023 - BUDIDAYA PERAIRAN",
@@ -2355,7 +2355,7 @@ const universities = {
             "3722363 - KEWIRAUSAHAAN   "
         ]
     },
-    "373 - UNIVERSITAS NEGERI MALANG": {
+    "1373 - UNIVERSITAS NEGERI MALANG": {
         "SAINTEK": [
             "3731017 - PENDIDIKAN MATEMATIKA",
             "3731025 - PENDIDIKAN FISIKA",
@@ -2419,7 +2419,7 @@ const universities = {
             "3732373 - ILMU PERPUSTAKAAN"
         ]
     },
-    "374 - UNIVERSITAS ISLAM NEGERI MALANG": {
+    "1374 - UNIVERSITAS ISLAM NEGERI MALANG": {
         "SAINTEK": [
             "3741012 - MATEMATIKA",
             "3741027 - BIOLOGI",
@@ -2438,7 +2438,7 @@ const universities = {
             "3742112 - AKUNTANSI"
         ]
     },
-    "381 - UNIVERSITAS AIRLANGGA": {
+    "1381 - UNIVERSITAS AIRLANGGA": {
         "SAINTEK": [
             "3811014 - PENDIDIKAN DOKTER",
             "3811022 - PENDIDIKAN DOKTER GIGI",
@@ -2483,7 +2483,7 @@ const universities = {
             "3812184 - AKUNTANSI (PSDKU BANYUWANGI)    "
         ]
     },
-    "382 - INSTITUT TEKNOLOGI SEPULUH NOPEMBER": {
+    "1382 - INSTITUT TEKNOLOGI SEPULUH NOPEMBER": {
         "SAINTEK": [
             "3821016 - FISIKA",
             "3821024 - MATEMATIKA",
@@ -2521,7 +2521,7 @@ const universities = {
             "3822012 - MANAJEMEN BISNIS"
         ]
     },
-    "383 - UNIVERSITAS NEGERI SURABAYA": {
+    "1383 - UNIVERSITAS NEGERI SURABAYA": {
         "SAINTEK": [
             "3831011 - PEND. MATEMATIKA",
             "3831026 - PEND. FISIKA",
@@ -2590,7 +2590,7 @@ const universities = {
             "3832447 - EKONOMI"
         ]
     },
-    "384 - UNIVERSITAS TRUNOJOYO MADURA": {
+    "1384 - UNIVERSITAS TRUNOJOYO MADURA": {
         "SAINTEK": [
             "3841013 - AGROEKOTEKNOLOGI",
             "3841021 - AGRIBISNIS",
@@ -2622,7 +2622,7 @@ const universities = {
             "3842136 - PENDIDIKAN GURU ANAK USIA DINI"
         ]
     },
-    "385 - UPN \"VETERAN\" JAWA TIMUR": {
+    "1385 - UPN \"VETERAN\" JAWA TIMUR": {
         "SAINTEK": [
             "3851015 - AGRIBISNIS",
             "3851023 - AGROTEKNOLOGI",
@@ -2647,7 +2647,7 @@ const universities = {
             "3852081 - ILMU HUKUM"
         ]
     },
-    "386 - UNIVERSITAS ISLAM NEGERI SUNAN AMPEL SURABAYA": {
+    "1386 - UNIVERSITAS ISLAM NEGERI SUNAN AMPEL SURABAYA": {
         "SAINTEK": [
             "3861017 - PENDIDIKAN MATEMATIKA",
             "3861025 - TEKNIK LINGKUNGAN",
@@ -2670,7 +2670,7 @@ const universities = {
             "3862284 - HUBUNGAN INTERNASIONAL  "
         ]
     },
-    "511 - UNIVERSITAS TANJUNGPURA": {
+    "1511 - UNIVERSITAS TANJUNGPURA": {
         "SAINTEK": [
             "5111022 - SOSIAL EKONOMI PERTANIAN (AGRIBISNIS)",
             "5111045 - TEKNIK SIPIL",
@@ -2740,7 +2740,7 @@ const universities = {
             "5112315 - ANTROPOLOGI SOSIAL "
         ]
     },
-    "521 - UNIVERSITAS PALANGKARAYA": {
+    "1521 - UNIVERSITAS PALANGKARAYA": {
         "SAINTEK": [
             "5211015 - ILMU SOSIAL EKONOMI PERTANIAN (AGRIBISNIS)",
             "5211054 - MANAJEMEN SUMBERDAYA PERAIRAN",
@@ -2787,7 +2787,7 @@ const universities = {
             "5212204 - PENDIDIKAN SENDRATASIK"
         ]
     },
-    "531 - UNIVERSITAS LAMBUNG MANGKURAT": {
+    "1531 - UNIVERSITAS LAMBUNG MANGKURAT": {
         "SAINTEK": [
             "5311016 - PEND. MATEMATIKA",
             "5311024 - PEND. BIOLOGI",
@@ -2855,7 +2855,7 @@ const universities = {
             "5312244 - PSIKOLOGI"
         ]
     },
-    "541 - UNIVERSITAS MULAWARMAN": {
+    "1541 - UNIVERSITAS MULAWARMAN": {
         "SAINTEK": [
             "5411017 - AGROEKOTEKNOLOGI",
             "5411025 - AGRIBISNIS",
@@ -2921,7 +2921,7 @@ const universities = {
             "5412261 - PENDIDIKAN SEJARAH"
         ]
     },
-    "542 - INSTITUT TEKNOLOGI KALIMANTAN": {
+    "1542 - INSTITUT TEKNOLOGI KALIMANTAN": {
         "SAINTEK": [
             "5421012 - FISIKA",
             "5421027 - MATEMATIKA",
@@ -2939,7 +2939,7 @@ const universities = {
             "5421147 - TEKNIK KELAUTAN"
         ]
     },
-    "551 - UNIVERSITAS BORNEO TARAKAN": {
+    "1551 - UNIVERSITAS BORNEO TARAKAN": {
         "SAINTEK": [
             "5511011 - TEKNIK ELEKTRO",
             "5511026 - TEKNIK SIPIL",
@@ -2962,7 +2962,7 @@ const universities = {
             "5512111 - PENDIDIKAN GURU SEKOLAH DASAR"
         ]
     },
-    "611 - UNIVERSITAS UDAYANA": {
+    "1611 - UNIVERSITAS UDAYANA": {
         "SAINTEK": [
             "6111014 - PENDIDIKAN DOKTER",
             "6111022 - KEDOKTERAN HEWAN",
@@ -3014,7 +3014,7 @@ const universities = {
             "6112226 - ILMU POLITIK"
         ]
     },
-    "612 - UNIVERSITAS PENDIDIKAN GANESHA": {
+    "1612 - UNIVERSITAS PENDIDIKAN GANESHA": {
         "SAINTEK": [
             "6121016 - PENDIDIKAN MATEMATIKA",
             "6121024 - PENDIDIKAN BIOLOGI",
@@ -3054,7 +3054,7 @@ const universities = {
             "6122236 - ILMU HUKUM"
         ]
     },
-    "613 - ISI DENPASAR": {
+    "1613 - ISI DENPASAR": {
         "SOSHUM": [
             "6132014 - TARI",
             "6132022 - SENI KARAWITAN",
@@ -3068,7 +3068,7 @@ const universities = {
             "6132103 - SENI PEDALANGAN"
         ]
     },
-    "621 - UNIVERSITAS MATARAM": {
+    "1621 - UNIVERSITAS MATARAM": {
         "SAINTEK": [
             "6211015 - AGROEKOTEKNOLOGI",
             "6211023 - AGRIBISNIS",
@@ -3109,7 +3109,7 @@ const universities = {
             "6212131 - PENDIDIKAN SOSIOLOGI"
         ]
     },
-    "631 - UNIVERSITAS NUSA CENDANA": {
+    "1631 - UNIVERSITAS NUSA CENDANA": {
         "SAINTEK": [
             "6311016 - PEND. MATEMATIKA",
             "6311024 - PEND. BIOLOGI",
@@ -3162,7 +3162,7 @@ const universities = {
             "6312213 - PSIKOLOGI"
         ]
     },
-    "632 - UNIVERSITAS TIMOR": {
+    "1632 - UNIVERSITAS TIMOR": {
         "SAINTEK": [
             "6321011 - AGRIBISNIS",
             "6321026 - AGROTEKNOLOGI",
@@ -3183,7 +3183,7 @@ const universities = {
             "6322061 - EKO. PEMBANGUNAN    "
         ]
     },
-    "711 - UNIVERSITAS HASANUDDIN": {
+    "1711 - UNIVERSITAS HASANUDDIN": {
         "SAINTEK": [
             "7111014 - MATEMATIKA",
             "7111022 - FISIKA",
@@ -3249,7 +3249,7 @@ const universities = {
             "7112211 - HUKUM ADMINISTRASI NEGARA"
         ]
     },
-    "712 - UNIVERSITAS NEGERI MAKASSAR": {
+    "1712 - UNIVERSITAS NEGERI MAKASSAR": {
         "SAINTEK": [
             "7121016 - PENDIDIKAN MATEMATIKA",
             "7121024 - PENDIDIKAN FISIKA",
@@ -3322,7 +3322,7 @@ const universities = {
             "7122476 - PENDIDIKAN BAHASA MANDARIN"
         ]
     },
-    "713 - UNIVERSITAS ISLAM NEGERI ALAUDDIN": {
+    "1713 - UNIVERSITAS ISLAM NEGERI ALAUDDIN": {
         "SAINTEK": [
             "7131011 - MATEMATIKA",
             "7131034 - KIMIA",
@@ -3342,7 +3342,7 @@ const universities = {
             "7132285 - ILMU KOMUNIKASI "
         ]
     },
-    "721 - UNIVERSITAS SAM RATULANGI": {
+    "1721 - UNIVERSITAS SAM RATULANGI": {
         "SAINTEK": [
             "7211015 - PENDIDIKAN DOKTER",
             "7211023 - PENDIDIKAN DOKTER GIGI",
@@ -3396,7 +3396,7 @@ const universities = {
             "7212162 - ANTROPOLOGI SOSIAL  "
         ]
     },
-    "722 - UNIVERSITAS NEGERI MANADO": {
+    "1722 - UNIVERSITAS NEGERI MANADO": {
         "SAINTEK": [
             "7221017 - PEND. BIOLOGI",
             "7221025 - ILMU BIOLOGI",
@@ -3449,7 +3449,7 @@ const universities = {
             "7222311 - ILMU EKONOMI"
         ]
     },
-    "731 - UNIVERSITAS TADULAKO": {
+    "1731 - UNIVERSITAS TADULAKO": {
         "SAINTEK": [
             "7311016 - PEND. BIOLOGI",
             "7311024 - PEND. MATEMATIKA",
@@ -3505,7 +3505,7 @@ const universities = {
             "7312205 - MANAJEMEN (PSDKU TOUNA)"
         ]
     },
-    "741 - UNIVERSITAS SULAWESI BARAT": {
+    "1741 - UNIVERSITAS SULAWESI BARAT": {
         "SAINTEK": [
             "7411017 - AGRIBISNIS",
             "7411025 - KEHUTANAN",
@@ -3529,7 +3529,7 @@ const universities = {
             "7412067 - PEND. BHS. INGGRIS"
         ]
     },
-    "751 - UNIVERSITAS HALUOLEO": {
+    "1751 - UNIVERSITAS HALUOLEO": {
         "SAINTEK": [
             "7511011 - AGRIBISNIS",
             "7511026 - AGROTEKNOLOGI / AGROEKOTEKNOLOGI",
@@ -3608,7 +3608,7 @@ const universities = {
             "7512327 - PERPUSTAKAAN DAN ILMU INFORMASI"
         ]
     },
-    "752 - UNIVERSITAS NEGERI GORONTALO": {
+    "1752 - UNIVERSITAS NEGERI GORONTALO": {
         "SAINTEK": [
             "7521013 - PENDIDIKAN MATEMATIKA",
             "7521021 - PENDIDIKAN FISIKA",
@@ -3665,7 +3665,7 @@ const universities = {
             "7522202 - ADMINISTRASI PUBLIK"
         ]
     },
-    "753 - UNIVERSITAS SEMBILAN BELAS NOVEMBER KOLAKA": {
+    "1753 - UNIVERSITAS SEMBILAN BELAS NOVEMBER KOLAKA": {
         "SAINTEK": [
             "7531015 - PENDIDIKAN MATEMATIKA",
             "7531023 - SISTEM INFORMASI",
@@ -3694,7 +3694,7 @@ const universities = {
             "7532107 - EKONOMI PEMBANGUNAN"
         ]
     },
-    "811 - UNIVERSITAS PATTIMURA": {
+    "1811 - UNIVERSITAS PATTIMURA": {
         "SAINTEK": [
             "8111014 - PEND. BIOLOGI",
             "8111022 - PEND. FISIKA",
@@ -3762,7 +3762,7 @@ const universities = {
             "8112296 - PEND. JASMANI, KESEHATAN, DAN REKREASI (PSDKU KAB. ARU)"
         ]
     },
-    "821 - UNIVERSITAS KHAIRUN": {
+    "1821 - UNIVERSITAS KHAIRUN": {
         "SAINTEK": [
             "8211015 - TEKNIK SIPIL",
             "8211023 - TEKNIK MESIN",
@@ -3803,7 +3803,7 @@ const universities = {
             "8212146 - PG PAUD"
         ]
     },
-    "911 - UNIVERSITAS CENDERAWASIH": {
+    "1911 - UNIVERSITAS CENDERAWASIH": {
         "SAINTEK": [
             "9111014 - MATEMATIKA",
             "9111022 - BIOLOGI",
@@ -3852,7 +3852,7 @@ const universities = {
             "9112211 - MANAJEMEN ADMINISTRASI PERKANTORAN  "
         ]
     },
-    "912 - UNIVERSITAS MUSAMUS MERAUKE": {
+    "1912 - UNIVERSITAS MUSAMUS MERAUKE": {
         "SAINTEK": [
             "9121016 - TEKNIK ELEKTRO",
             "9121024 - TEKNIK MESIN",
@@ -3883,7 +3883,7 @@ const universities = {
             "9122124 - SASTRA INGGRIS"
         ]
     },
-    "913 - ISBI TANAH PAPUA": {
+    "1913 - ISBI TANAH PAPUA": {
         "SOSHUM": [
             "9132014 - DESAIN KOMUNIKASI VISUAL",
             "9132022 - SENI RUPA MURNI",
@@ -3892,7 +3892,7 @@ const universities = {
             "9132053 - SENI TARI"
         ]
     },
-    "921 - UNIVERSITAS PAPUA": {
+    "1921 - UNIVERSITAS PAPUA": {
         "SAINTEK": [
             "9211104 - TEKNOLOGI HASIL PERTANIAN",
             "9211127 - MANAJEMEN SUMBERDAYA PERAIRAN",
