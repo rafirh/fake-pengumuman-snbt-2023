@@ -256,7 +256,7 @@ const universities = {
             "1071053 - CLASSICS (Sarjana)",
             "1071054 - COMPARATIVE LITERATURE (Sarjana)",
             "1071055 - LINGUISTICS (Sarjana)",
-            "1071056 - SLAVIC LANGUAGES AND LITERATURE (Sarjana)S"
+            "1071056 - SLAVIC LANGUAGES AND LITERATURES (Sarjana)"
         ],//https://www.hotcourses.co.id/study/provider-result.html?collegeId=72102#search&countryId=211&nationCode=88&nationCntryCode=88&studyAbroad=N&studyOnline=N&studyCross=N&studyDomestic=N&studyPartTime=N&orderBy=POPULAR&collegeId=72102&manStdyAbrdFlg=N&restRefineFlag=Y&pageNo=15
     },
     "1108 - UNIVERSITY OF OXFORD": {
@@ -305,7 +305,7 @@ const universities = {
             "1081043 - EARTH SCIENCES (Sarjana)",
             "1081044 - HISTORY AND POLITICS (Sarjana)",
             "1081045 - MUSIC (Sarjana)",
-            "1081046 - ARABIC WITH SUBSIDIARY LANGUAG (Sarjana)E"
+            "1081046 - ARABIC WITH SUBSIDIARY LANGUAGE (Sarjana)"
             /*"P2A", //page15
             "P3A"*/
         ], //https://www.hotcourses.co.id/study/provider-result.html?collegeId=3757#search&countryId=210&nationCode=88&nationCntryCode=88&studyAbroad=N&studyOnline=N&studyCross=N&studyDomestic=N&studyPartTime=N&orderBy=POPULAR&collegeId=3757&manStdyAbrdFlg=N&restRefineFlag=Y&pageNo=15
@@ -319,18 +319,18 @@ const universities = {
             "1091005 - MECHANICAL ENGINEERING (Sarjana)",
             "1091006 - ELECTRICAL ENGINEERING (Sarjana)",
             "1091007 - ARCHITECTURE STUDIES (Sarjana)",
-            "1091008 - LIBERAL ART (Sarjana)S"
+            "1091008 - LIBERAL ARTS (Sarjana)"
         ]//https://www.hotcourses.co.id/study/provider-result.html?collegeId=72040#search&countryId=211&nationCode=88&nationCntryCode=88&studyAbroad=N&studyOnline=N&studyCross=N&studyDomestic=N&studyPartTime=N&orderBy=POPULAR&collegeId=72040&manStdyAbrdFlg=N&restRefineFlag=Y&pageNo=16
     },
     "1110 - UNIVERSITAS PETERNAKAN IKAN LELE": {
         "SAINTEK": [
             "1101001 - PENDIDIKAN TERNAK LELE (Sarjana)",
             "1101002 - TEKNIK BUDIDAYA LELE (Sarjana)",
-            "1103411 - TEKNOLOGI HASIL PERLELEA (Sarjana)N"
+            "1103411 - TEKNOLOGI HASIL PERLELEAN (Sarjana)"
         ],
         "SOSHUM": [
             "1101003 - MANAJEMEN PERIKANAN IKAN LELE (Sarjana)",
-            "1101004 - LELEKOLOG (Sarjana)I"
+            "1101004 - LELEKOLOGI (Sarjana)"
         ]
     },
     "1111 - UNIVERSITAS SYIAH KUALA": {
@@ -374,7 +374,7 @@ const universities = {
             "1111374 - PROTEKSI TANAMAN (Sarjana)",
             "1111382 - PERENCANAAN WILAYAH DAN KOTA (Sarjana)",
             "1111397 - KEHUTANAN (Sarjana)",
-            "1111401 - TEKNIK KOMPUTE (Sarjana)R"
+            "1111401 - TEKNIK KOMPUTER (Sarjana)"
         ],
         "SOSHUM": [
             "1112017 - EKONOMI PEMBANGUNAN (Sarjana)",
@@ -399,7 +399,7 @@ const universities = {
             "1112203 - PENDIDIKAN GURU PAUD (Sarjana)",
             "1112211 - ILMU PEMERINTAHAN (Sarjana)",
             "1112226 - EKONOMI ISLAM (Sarjana)",
-            "1112234 - MANAJEMEN (PSDKU GAYO LUES (Sarjana))"
+            "1112234 - MANAJEMEN (PSDKU GAYO LUES) (Sarjana)"
         ]
     },
     "1112 - UNIVERSITAS MALIKUSSALEH": {
@@ -420,7 +420,7 @@ const universities = {
             "1121144 - PENDIDIKAN MATEMATIKA (Sarjana)",
             "1121152 - PENDIDIKAN TEKNIK MESIN (Sarjana)",
             "1121167 - SISTEM INFORMASI (Sarjana)",
-            "1121175 - ILMU KELAUTA (Sarjana)N"
+            "1121175 - ILMU KELAUTAN (Sarjana)"
         ],
         "SOSHUM": [
             "1122012 - MANAJEMEN (Sarjana)",
@@ -435,7 +435,7 @@ const universities = {
             "1122101 - EKONOMI ISLAM (Sarjana)",
             "1122116 - PSIKOLOGI (Sarjana)",
             "1122124 - SASTRA INDONESIA (Sarjana)",
-            "1122132 - ILMU ADMINISTRASI NIAG (Sarjana)A"
+            "1122132 - ILMU ADMINISTRASI NIAGA (Sarjana)"
         ]
     },
     "1113 - UNIVERSITAS TEUKU UMAR": {
@@ -450,7 +450,7 @@ const universities = {
             "1131081 - AKUAKULTUR (Sarjana)",
             "1131096 - SUMBER DAYA AKUATIK (Sarjana)",
             "1131107 - TEKNOLOGI HASIL PERTANIAN (Sarjana)",
-            "1131115 - ILMU KELAUTA (Sarjana)N"
+            "1131115 - ILMU KELAUTAN (Sarjana)"
         ],
         "SOSHUM": [
             "1132014 - EKONOMI PEMBANGUNAN (Sarjana)",
@@ -459,7 +459,7 @@ const universities = {
             "1132045 - ILMU KOMUNIKASI (Sarjana)",
             "1132053 - MANAJEMEN (Sarjana)",
             "1132061 - AKUNTANSI (Sarjana)",
-            "1132076 - ILMU HUKU (Sarjana)M"
+            "1132076 - ILMU HUKUM (Sarjana)"
         ]
     },
     "1114 - UNIVERSITAS SAMUDRA": {
@@ -478,7 +478,7 @@ const universities = {
             "1141125 - MATEMATIKA (Sarjana)",
             "1141133 - FISIKA (Sarjana)",
             "1141141 - KIMIA (Sarjana)",
-            "1141156 - BIOLOG (Sarjana)I"
+            "1141156 - BIOLOGI (Sarjana)"
         ],
         "SOSHUM": [
             "1142016 - ILMU HUKUM (Sarjana)",
@@ -489,7 +489,7 @@ const universities = {
             "1142063 - PENDIDIKAN OLAHRAGA (Sarjana)",
             "1142071 - PENDIDIKAN GURU SEKOLAH DASAR (Sarjana)",
             "1142094 - PENDIDIKAN BAHASA INDONESIA (Sarjana)",
-            "1142105 - AKUNTANS (Sarjana)I"
+            "1142105 - AKUNTANSI (Sarjana)"
         ]
     },
     "1115 - ISBI ACEH": {
@@ -499,7 +499,7 @@ const universities = {
             "1152034 - SENI TEATER (Sarjana)",
             "1152042 - SENI RUPA MURNI (Sarjana)",
             "1152057 - KRIYA SENI (Sarjana)",
-            "1152065 - DESAIN KOMUNIKASI VISUA (Sarjana)L"
+            "1152065 - DESAIN KOMUNIKASI VISUAL (Sarjana)"
         ]
     },
     "1116 - UNIVERSITAS ISLAM NEGERI AR-RANIRY": {
@@ -509,7 +509,7 @@ const universities = {
             "1161033 - ARSITEKTUR (Sarjana)",
             "1161041 - TEKNIK LINGKUNGAN (Sarjana)",
             "1161056 - BIOLOGI (Sarjana)",
-            "1161064 - KIMI (Sarjana)A"
+            "1161064 - KIMIA (Sarjana)"
         ],
         "SOSHUM": [
             "1162013 - ILMU HUKUM (Sarjana)",
@@ -520,7 +520,7 @@ const universities = {
             "1162067 - ILMU EKONOMI (Sarjana)",
             "1162075 - ILMU POLITIK (Sarjana)",
             "1162083 - ILMU ADMINISTRASI NEGARA (Sarjana)",
-            "1162091 - PSIKOLOG (Sarjana)I"
+            "1162091 - PSIKOLOGI (Sarjana)"
         ]
     },
     "1121 - UNIVERSITAS SUMATERA UTARA": {
@@ -549,7 +549,7 @@ const universities = {
             "1211232 - ILMU KOMPUTER (Sarjana)",
             "1211247 - TEKNOLOGI INFORMASI (Sarjana)",
             "1211255 - MANAJEMEN SUMBER DAYA PERAIRAN (Sarjana)",
-            "1211263 - TEKNIK LINGKUNGA (Sarjana)N"
+            "1211263 - TEKNIK LINGKUNGAN (Sarjana)"
         ],
         "SOSHUM": [
             "1212011 - ILMU HUKUM (Sarjana)",
@@ -573,7 +573,7 @@ const universities = {
             "1212193 - ILMU PERPUSTAKAAN (Sarjana)",
             "1212204 - SASTRA CINA (Sarjana)",
             "1212227 - ILMU ADMINISTRASI NIAGA/BISNIS (Sarjana)",
-            "1212235 - PSIKOLOG (Sarjana)I"
+            "1212235 - PSIKOLOGI (Sarjana)"
         ]
     },
     "1122 - UNIVERSITAS NEGERI MEDAN": {
@@ -596,7 +596,7 @@ const universities = {
             "1221161 - TEKNIK SIPIL (Sarjana)",
             "1221176 - PENDIDIKAN TEKNOLOGI INFORMATIKA DAN KOMPUTER (Sarjana)",
             "1221184 - ILMU KOMPUTER (Sarjana)",
-            "1221192 - PENDIDIKAN IP (Sarjana)A"
+            "1221192 - PENDIDIKAN IPA (Sarjana)"
         ],
         "SOSHUM": [
             "1222021 - PENDIDIKAN SEJARAH (Sarjana)",
@@ -628,7 +628,7 @@ const universities = {
             "1222303 - PENDIDIKAN SENI MUSIK (Sarjana)",
             "1222311 - PENDIDIKAN TATA BUSANA (Sarjana)",
             "1222326 - SENI PERTUNJUKAN (Sarjana)",
-            "1222334 - ILMU EKONOM (Sarjana)I"
+            "1222334 - ILMU EKONOMI (Sarjana)"
         ]
     },
     "1123 - UNIVERSITAS ISLAM NEGERI SUMATERA UTARA": {
@@ -638,11 +638,11 @@ const universities = {
             "1231035 - MATEMATIKA (Sarjana)",
             "1231043 - BIOLOGI (Sarjana)",
             "1231051 - FISIKA (Sarjana)",
-            "1231066 - ILMU KESEHATAN MASYARAKA (Sarjana)T"
+            "1231066 - ILMU KESEHATAN MASYARAKAT (Sarjana)"
         ],
         "SOSHUM": [
             "1232015 - ILMU PERPUSTAKAAN (Sarjana)",
-            "1232023 - ILMU KOMUNIKAS (Sarjana)I"
+            "1232023 - ILMU KOMUNIKASI (Sarjana)"
         ]
     },
     "1131 - UNIVERSITAS RIAU": {
@@ -676,7 +676,7 @@ const universities = {
             "1311272 - SISTEM INFORMASI (Sarjana)",
             "1311287 - TEKNIK INFORMATIKA (Sarjana)",
             "1311295 - TEKNOLOGI INDUSTRI PERTANIAN (Sarjana)",
-            "1311306 - STATISTIK (Sarjana)A"
+            "1311306 - STATISTIKA (Sarjana)"
         ],
         "SOSHUM": [
             "1312012 - HUBUNGAN INTERNASIONAL (Sarjana)",
@@ -701,7 +701,7 @@ const universities = {
             "1312205 - PEND JASMANI KESEHATAN & REKREASI (Sarjana)",
             "1312213 - PEND KEPELATIHAN OLAHRAGA (Sarjana)",
             "1312221 - PGSD (Sarjana)",
-            "1312236 - PAU (Sarjana)D"
+            "1312236 - PAUD (Sarjana)"
         ]
     },
     "1132 - UNIVERSITAS ISLAM NEGERI SULTAN SYARIF KASIM": {
@@ -714,7 +714,7 @@ const universities = {
             "1321065 - TEKNIK INFORMATIKA (Sarjana)",
             "1321081 - PENDIDIKAN MATEMATIKA (Sarjana)",
             "1321096 - PENDIDIKAN KIMIA (Sarjana)",
-            "1321107 - ILMU PERTANIAN (AGROTEKNOLOGI (Sarjana))"
+            "1321107 - ILMU PERTANIAN (AGROTEKNOLOGI) (Sarjana)"
         ],
         "SOSHUM": [
             "1322014 - AKUNTANSI (Sarjana)",
@@ -723,7 +723,7 @@ const universities = {
             "1322045 - PSIKOLOGI (Sarjana)",
             "1322053 - ILMU HUKUM (Sarjana)",
             "1322111 - PENDIDIKAN EKONOMI (Sarjana)",
-            "1322223 - ILMU KOMUNIKAS (Sarjana)I"
+            "1322223 - ILMU KOMUNIKASI (Sarjana)"
         ]
     },
     "1133 - UNIVERSITAS MARITIM RAJA ALI HAJI": {
@@ -737,7 +737,7 @@ const universities = {
             "1331075 - PENDIDIKAN KIMIA (Sarjana)",
             "1331083 - BUDI DAYA PERAIRAN (Sarjana)",
             "1331091 - TEKNOLOGI HASIL PERIKANAN (Sarjana)",
-            "1331102 - SOSIAL EKONOMI PERIKANA (Sarjana)N"
+            "1331102 - SOSIAL EKONOMI PERIKANAN (Sarjana)"
         ],
         "SOSHUM": [
             "1332016 - PENDIDIKAN BAHASA INDONESIA (Sarjana)",
@@ -748,7 +748,7 @@ const universities = {
             "1332063 - PENDIDIKAN BAHASA INGGRIS (Sarjana)",
             "1332071 - MANAJEMEN (Sarjana)",
             "1332086 - ILMU HUKUM (Sarjana)",
-            "1332094 - ILMU HUBUNGAN INTERNASIONA (Sarjana)L"
+            "1332094 - ILMU HUBUNGAN INTERNASIONAL (Sarjana)"
         ]
     },
     "1141 - UNIVERSITAS ANDALAS": {
@@ -781,7 +781,7 @@ const universities = {
             "1411265 - KEBIDANAN (Sarjana)",
             "1411273 - GIZI (Sarjana)",
             "1411281 - PROTEKSI TANAMAN (Sarjana)",
-            "1411296 - PENYULUHAN PERTANIA (Sarjana)N"
+            "1411296 - PENYULUHAN PERTANIAN (Sarjana)"
         ],
         "SOSHUM": [
             "1412013 - EKONOMI PEMBANGUNAN (Sarjana)",
@@ -800,7 +800,7 @@ const universities = {
             "1412141 - ILMU HUBUNGAN INTERNASIONAL (Sarjana)",
             "1412156 - ILMU KOMUNIKASI (Sarjana)",
             "1412164 - MANAJEMEN (KAMPUS 2 PAYAKUMBUH) (Sarjana)",
-            "1412172 - EKONOMI PEMBANGUNAN (KAMPUS 2 PAYAKUMBUH (Sarjana))"
+            "1412172 - EKONOMI PEMBANGUNAN (KAMPUS 2 PAYAKUMBUH) (Sarjana)"
         ]
     },
     "1142 - UNIVERSITAS NEGERI PADANG": {
@@ -825,7 +825,7 @@ const universities = {
             "1421186 - PENDIDIKAN ILMU PENGETAHUAN ALAM (Sarjana)",
             "1421194 - TEKNIK SIPIL (Sarjana)",
             "1421205 - STATISTIKA (NK) (Sarjana)",
-            "1421213 - TEKNIK MESIN (NK (Sarjana))"
+            "1421213 - TEKNIK MESIN (NK) (Sarjana)"
         ],
         "SOSHUM": [
             "1422015 - ADMINISTRASI PENDIDIKAN (Sarjana)",
@@ -862,7 +862,7 @@ const universities = {
             "1422321 - PENDIDIKAN MUSIK (Sarjana)",
             "1422336 - PENDIDIKAN KEAGAMAAN ISLAM (Sarjana)",
             "1422344 - PERPUSTAKAAN DAN ILMU INFORMASI (Sarjana)",
-            "1422354 - PENDIDIKAN TAR (Sarjana)I"
+            "1422354 - PENDIDIKAN TARI (Sarjana)"
         ]
     },
     "1143 - ISI PADANG PANJANG": {
@@ -877,7 +877,7 @@ const universities = {
             "1432087 - FOTOGRAFI (Sarjana)",
             "1432095 - DESAIN DAN KOMUNIKASI VISUAL (Sarjana)",
             "1432106 - ANTROPOLOGI BUDAYA (Sarjana)",
-            "1432114 - PENDIDIKAN KRIY (Sarjana)A"
+            "1432114 - PENDIDIKAN KRIYA (Sarjana)"
         ]
     },
     "1151 - UNIVERSITAS JAMBI": {
@@ -911,7 +911,7 @@ const universities = {
             "1511347 - TEKNIK KIMIA (Sarjana)",
             "1511355 - TEKNIK SIPIL (Sarjana)",
             "1511363 - TEKNIK PERTANIAN (Sarjana)",
-            "1511371 - TEKNOLOGI INDUSTRI PERTANIA (Sarjana)N"
+            "1511371 - TEKNOLOGI INDUSTRI PERTANIAN (Sarjana)"
         ],
         "SOSHUM": [
             "1512014 - PEND. EKONOMI (Sarjana)",
@@ -935,7 +935,7 @@ const universities = {
             "1512196 - ILMU SEJARAH (Sarjana)",
             "1512207 - ADMINISTRASI PENDIDIKAN (Sarjana)",
             "1512215 - ILMU POLITIK (Sarjana)",
-            "1512223 - SENI DRAMA TARI DAN MUSI (Sarjana)K"
+            "1512223 - SENI DRAMA TARI DAN MUSIK (Sarjana)"
         ]
     },
     "1161 - UNIVERSITAS BENGKULU": {
@@ -966,7 +966,7 @@ const universities = {
             "1611244 - PROTEKSI TANAMAN (Sarjana)",
             "1611252 - FARMASI (Sarjana)",
             "1611267 - GEOFISIKA (Sarjana)",
-            "1611275 - PENDIDIKAN IP (Sarjana)A"
+            "1611275 - PENDIDIKAN IPA (Sarjana)"
         ],
         "SOSHUM": [
             "1612015 - ILMU HUKUM (Sarjana)",
@@ -985,7 +985,7 @@ const universities = {
             "1612143 - PENDIDIKAN JASMANI DAN KESEHATAN (Sarjana)",
             "1612151 - BIMBINGAN DAN KONSELING (Sarjana)",
             "1612166 - ILMU PERPUSTAKAAN (Sarjana)",
-            "1612174 - JURNALISTI (Sarjana)K"
+            "1612174 - JURNALISTIK (Sarjana)"
         ]
     },
     "1171 - UNIVERSITAS SRIWIJAYA": {
@@ -1027,7 +1027,7 @@ const universities = {
             "1711365 - AGRONOMI (Sarjana)",
             "1711373 - PROTEKSI TANAMAN (Sarjana)",
             "1711381 - GIZI (Sarjana)",
-            "1711396 - KESEHATAN LINGKUNGA (Sarjana)N"
+            "1711396 - KESEHATAN LINGKUNGAN (Sarjana)"
         ],
         "SOSHUM": [
             "1712016 - EKONOMI PEMBANGUNAN (Sarjana)",
@@ -1057,12 +1057,12 @@ const universities = {
             "1721046 - KIMIA (Sarjana)",
             "1721054 - BIOLOGI (Sarjana)",
             "1721062 - PENDIDIKAN FISIKA (Sarjana)",
-            "1721077 - PENDIDIKAN KIMI (Sarjana)A"
+            "1721077 - PENDIDIKAN KIMIA (Sarjana)"
         ],
         "SOSHUM": [
             "1722204 - ILMU POLITIK (Sarjana)",
             "1722212 - ILMU PERPUSTAKAAN (Sarjana)",
-            "1722227 - ILMU KOMUNIKAS (Sarjana)I"
+            "1722227 - ILMU KOMUNIKASI (Sarjana)"
         ]
     },
     "1181 - UNIVERSITAS BANGKA BELITUNG": {
@@ -1078,7 +1078,7 @@ const universities = {
             "1811092 - BUDIDAYA PERAIRAN (Sarjana)",
             "1811103 - ILMU KELAUTAN (Sarjana)",
             "1811111 - KIMIA (Sarjana)",
-            "1811126 - FISIK (Sarjana)A"
+            "1811126 - FISIKA (Sarjana)"
         ],
         "SOSHUM": [
             "1812017 - AKUNTANSI (Sarjana)",
@@ -1087,7 +1087,7 @@ const universities = {
             "1812041 - SOSIOLOGI (Sarjana)",
             "1812056 - SASTRA INGGRIS (Sarjana)",
             "1812064 - ILMU POLITIK (Sarjana)",
-            "1812072 - EKONOM (Sarjana)I"
+            "1812072 - EKONOMI (Sarjana)"
         ]
     },
     "1191 - UNIVERSITAS LAMPUNG": {
@@ -1125,7 +1125,7 @@ const universities = {
             "1911313 - ILMU KELAUTAN (Sarjana)",
             "1911321 - TEKNOLOGI INDUSTRI PERTANIAN (Sarjana)",
             "1911336 - NUTRISI DAN TEKNOLOGI PANGAN TERNAK (Sarjana)",
-            "1911344 - PENDIDIKAN VOKASIONAL TEKNOLOGI INFORMAS (Sarjana)I"
+            "1911344 - PENDIDIKAN VOKASIONAL TEKNOLOGI INFORMASI (Sarjana)"
         ],
         "SOSHUM": [
             "1912011 - HUKUM (Sarjana)",
@@ -1150,7 +1150,7 @@ const universities = {
             "1912204 - PENDIDIKAN ANAK USIA DINI (Sarjana)",
             "1912212 - HUBUNGAN INTERNASIONAL (Sarjana)",
             "1912227 - BAHASA PERANCIS (Sarjana)",
-            "1912235 - PENDIDIKAN MUSI (Sarjana)K"
+            "1912235 - PENDIDIKAN MUSIK (Sarjana)"
         ]
     },
     "1192 - INSTITUT TEKNOLOGI SUMATERA": {
@@ -1175,7 +1175,7 @@ const universities = {
             "1921192 - TEKNIK FISIKA (Sarjana)",
             "1921203 - TEKNIK KELAUTAN (Sarjana)",
             "1921211 - SAINS ATMOSFIR DAN KEPLANETAN (Sarjana)",
-            "1921226 - TEKNIK BIOSISTE (Sarjana)M"
+            "1921226 - TEKNIK BIOSISTEM (Sarjana)"
         ]
     },
     "1311 - UNIVERSITAS SULTAN AGENG TIRTAYASA": {
@@ -1196,7 +1196,7 @@ const universities = {
             "3111142 - PENDIDIKAN FISIKA (Sarjana)",
             "3111157 - PENDIDIKAN KIMIA (Sarjana)",
             "3111165 - PENDIDIKAN IPA (Sarjana)",
-            "3111173 - TEKNOLOGI PANGA (Sarjana)N"
+            "3111173 - TEKNOLOGI PANGAN (Sarjana)"
         ],
         "SOSHUM": [
             "3112017 - ILMU HUKUM (Sarjana)",
@@ -1253,7 +1253,7 @@ const universities = {
             "3211294 - GEOLOGI (Sarjana)",
             "3211305 - STATISTIKA (Sarjana)",
             "3211313 - AKTUARIA (Sarjana)",
-            "3211321 - TEKNIK BIOMEDI (Sarjana)S"
+            "3211321 - TEKNIK BIOMEDIS (Sarjana)"
         ],
         "SOSHUM": [
             "3212011 - ILMU HUKUM (Sarjana)",
@@ -1305,7 +1305,7 @@ const universities = {
             "3221114 - PENDIDIKAN DOKTER (Sarjana)",
             "3221122 - PENDIDIKAN MATEMATIKA (Sarjana)",
             "3221145 - PENDIDIKAN KIMIA (Sarjana)",
-            "3221161 - TEKNIK PERTAMBANGA (Sarjana)N"
+            "3221161 - TEKNIK PERTAMBANGAN (Sarjana)"
         ],
         "SOSHUM": [
             "3222021 - AKUNTANSI (Sarjana)",
@@ -1318,7 +1318,7 @@ const universities = {
             "3222206 - KESEJAHTERAAN SOSIAL (Sarjana)",
             "3222214 - PSIKOLOGI (Sarjana)",
             "3222431 - SOSIOLOGI (Sarjana)",
-            "3222454 - BAHASA DAN SASTRA INGGRI (Sarjana)S"
+            "3222454 - BAHASA DAN SASTRA INGGRIS (Sarjana)"
         ]
     },
     "1323 - UNIVERSITAS NEGERI JAKARTA": {
@@ -1339,7 +1339,7 @@ const universities = {
             "3231147 - PENDIDIKAN VOKASIONAL TEKNIK ELEKTRONIKA (Sarjana)",
             "3231155 - ILMU KOMPUTER (Sarjana)",
             "3231163 - STATISTIKA (Sarjana)",
-            "3231171 - REKAYASA KESELAMATAN KEBAKARA (Sarjana)N"
+            "3231171 - REKAYASA KESELAMATAN KEBAKARAN (Sarjana)"
         ],
         "SOSHUM": [
             "3232015 - TEKNOLOGI PENDIDIKAN (Sarjana)",
@@ -1396,7 +1396,7 @@ const universities = {
             "3241061 - KEDOKTERAN (Sarjana)",
             "3241076 - KEPERAWATAN (Sarjana)",
             "3241084 - KESEHATAN MASYARAKAT (Sarjana)",
-            "3241092 - ILMU GIZ (Sarjana)I"
+            "3241092 - ILMU GIZI (Sarjana)"
         ],
         "SOSHUM": [
             "3242017 - MANAJEMEN (Sarjana)",
@@ -1406,7 +1406,7 @@ const universities = {
             "3242056 - HUKUM (Sarjana)",
             "3242064 - EKONOMI PEMBANGUNAN (Sarjana)",
             "3242072 - EKONOMI SYARIAH (Sarjana)",
-            "3242087 - ILMU POLITI (Sarjana)K"
+            "3242087 - ILMU POLITIK (Sarjana)"
         ]
     },
     "1331 - UNIVERSITAS SINGAPERBANGSA KARAWANG": {
@@ -1418,7 +1418,7 @@ const universities = {
             "3311055 - TEKNIK INFORMATIKA (Sarjana)",
             "3311063 - PEND. MATEMATIKA (Sarjana)",
             "3311071 - AGRIBISNIS (Sarjana)",
-            "3311086 - FARMAS (Sarjana)I"
+            "3311086 - FARMASI (Sarjana)"
         ],
         "SOSHUM": [
             "3312012 - ILMU HUKUM (Sarjana)",
@@ -1485,7 +1485,7 @@ const universities = {
             "3331292 - KEPERAWATAN PSDKU GARUT (Sarjana)",
             "3331303 - PERIKANAN PSDKU PANGANDARAN (Sarjana)",
             "3331311 - PETERNAKAN PSDKU PANGANDARAN (Sarjana)",
-            "3331326 - KEPERAWATAN PSDKU PANGANDARA (Sarjana)N"
+            "3331326 - KEPERAWATAN PSDKU PANGANDARAN (Sarjana)"
         ],
         "SOSHUM": [
             "3332016 - ILMU HUKUM (Sarjana)",
@@ -1545,7 +1545,7 @@ const universities = {
             "3341216 - TEKNIK ARSITEKTUR (Sarjana)",
             "3341224 - PENDIDIKAN KELAUTAN DAN PERIKANAN KAMPUS SERANG (Sarjana)",
             "3341232 - PENDIDIKAN MULTIMEDIA KAMPUS CIBIRU (Sarjana)",
-            "3341247 - PENDIDIKAN SISTEM DAN TEKNOLOGI INFORMASI KAMPUS PURWAKART (Sarjana)A"
+            "3341247 - PENDIDIKAN SISTEM DAN TEKNOLOGI INFORMASI KAMPUS PURWAKARTA (Sarjana)"
         ],
         "SOSHUM": [
             "3342011 - ADMINISTRASI PENDIDIKAN (Sarjana)",
@@ -1605,7 +1605,7 @@ const universities = {
             "3342556 - PENDIDIKAN BAHASA KOREA (Sarjana)",
             "3342564 - KEWIRAUSAHAAN KAMPUS TASIKMALAYA (Sarjana)",
             "3342572 - SAINS INFORMASI GEOGRAFI (Sarjana)",
-            "3342587 - DESAIN KOMUNIKASI VISUA (Sarjana)L"
+            "3342587 - DESAIN KOMUNIKASI VISUAL (Sarjana)"
         ]
     },
     "1335 - ISBI BANDUNG": {
@@ -1614,7 +1614,7 @@ const universities = {
             "3352021 - KARAWITAN (Sarjana)",
             "3352036 - TEATER (Sarjana)",
             "3352044 - SENI MURNI (Sarjana)",
-            "3352052 - ANTROPOLOGI BUDAY (Sarjana)A"
+            "3352052 - ANTROPOLOGI BUDAYA (Sarjana)"
         ]
     },
     "1336 - UNIVERSITAS ISLAM NEGERI SUNAN GUNUNG DJATI": {
@@ -1625,7 +1625,7 @@ const universities = {
             "3361051 - KIMIA (Sarjana)",
             "3361066 - TEKNIK INFORMATIKA (Sarjana)",
             "3361074 - TEKNIK ELEKTRO (Sarjana)",
-            "3361082 - AGROTEKNOLOG (Sarjana)I"
+            "3361082 - AGROTEKNOLOGI (Sarjana)"
         ],
         "SOSHUM": [
             "3362015 - SOSIOLOGI (Sarjana)",
@@ -1635,7 +1635,7 @@ const universities = {
             "3362062 - ILMU KOM. KONST. HUMAS (Sarjana)",
             "3362077 - ILMU KOM. KONST. JURNALISTIK (Sarjana)",
             "3362085 - BAHASA DAN SASTRA INGGRIS (Sarjana)",
-            "3362093 - PSIKOLOG (Sarjana)I"
+            "3362093 - PSIKOLOGI (Sarjana)"
         ]
     },
     "1341 - INSTITUT PERTANIAN BOGOR": {
@@ -1678,7 +1678,7 @@ const universities = {
             "3411466 - ILMU KELUARGA DAN KONSUMEN (Sarjana)",
             "3411474 - BISNIS (Sarjana)",
             "3411482 - TEKNOLOGI HASIL TERNAK (Sarjana)",
-            "3411497 - AKTUARI (Sarjana)A"
+            "3411497 - AKTUARIA (Sarjana)"
         ]
     },
     "1342 - UNIVERSITAS SILIWANGI": {
@@ -1692,7 +1692,7 @@ const universities = {
             "3421074 - TEKNIK INFORMATIKA (Sarjana)",
             "3421082 - KESEHATAN MASYARAKAT (Sarjana)",
             "3421097 - PENDIDIKAN FISIKA (Sarjana)",
-            "3421101 - GIZ (Sarjana)I"
+            "3421101 - GIZI (Sarjana)"
         ],
         "SOSHUM": [
             "3422015 - PENDIDIKAN LUAR SEKOLAH (Sarjana)",
@@ -1734,7 +1734,7 @@ const universities = {
             "3511212 - PENDIDIKAN DOKTER GIGI (Sarjana)",
             "3511227 - ILMU GIZI (Sarjana)",
             "3511235 - PENDIDIKAN JASMANI KESEHATAN DAN REKREASI (Sarjana)",
-            "3511243 - TEKNIK INDUSTR (Sarjana)I"
+            "3511243 - TEKNIK INDUSTRI (Sarjana)"
         ],
         "SOSHUM": [
             "3512014 - ILMU HUKUM (Sarjana)",
@@ -1751,7 +1751,7 @@ const universities = {
             "3512126 - BAHASA JEPANG (Sarjana)",
             "3512134 - PENDIDIKAN EKONOMI (Sarjana)",
             "3512142 - PENDIDIKAN BAHASA DAN SASTRA INDONESIA (Sarjana)",
-            "3512157 - PENDIDIKAN BAHASA INGGRI (Sarjana)S"
+            "3512157 - PENDIDIKAN BAHASA INGGRIS (Sarjana)"
         ]
     },
     "1352 - UNIVERSITAS TIDAR": {
@@ -1764,7 +1764,7 @@ const universities = {
             "3521067 - PENDIDIKAN ILMU PENGETAHUAN ALAM (Sarjana)",
             "3521075 - PENDIDIKAN BIOLOGI (Sarjana)",
             "3521083 - PENDIDIKAN MATEMATIKA (Sarjana)",
-            "3521091 - AKUAKULTU (Sarjana)R"
+            "3521091 - AKUAKULTUR (Sarjana)"
         ],
         "SOSHUM": [
             "3522016 - EKONOMI PEMBANGUNAN (Sarjana)",
@@ -1774,7 +1774,7 @@ const universities = {
             "3522055 - HUKUM (Sarjana)",
             "3522063 - MANAJEMEN (Sarjana)",
             "3522071 - ILMU KOMUNIKASI (Sarjana)",
-            "3522086 - AKUNTANS (Sarjana)I"
+            "3522086 - AKUNTANSI (Sarjana)"
         ]
     },
     "1353 - UNIVERSITAS SEBELAS MARET": {
@@ -1809,7 +1809,7 @@ const universities = {
             "3531286 - TEKNIK ELEKTRO (Sarjana)",
             "3531294 - STATISTIKA (Sarjana)",
             "3531305 - PENDIDIKAN IPA (Sarjana)",
-            "3531313 - ILMU LINGKUNGA (Sarjana)N"
+            "3531313 - ILMU LINGKUNGAN (Sarjana)"
         ],
         "SOSHUM": [
             "3532011 - ILMU ADMINISTRASI NEGARA (Sarjana)",
@@ -1846,7 +1846,7 @@ const universities = {
             "3532332 - HUBUNGAN INTERNASIONAL (Sarjana)",
             "3532347 - PENDIDIKAN AKUNTANSI (Sarjana)",
             "3532355 - PENDIDIKAN ADMINISTRASI PERKANTORAN (Sarjana)",
-            "3532363 - PENDIDIKAN EKONOM (Sarjana)I"
+            "3532363 - PENDIDIKAN EKONOMI (Sarjana)"
         ]
     },
     "1354 - ISI SURAKARTA": {
@@ -1861,7 +1861,7 @@ const universities = {
             "3542083 - TELEVISI DAN FILM (Sarjana)",
             "3542091 - FOTOGRAFI (Sarjana)",
             "3542102 - SENI KARAWITAN (Sarjana)",
-            "3542117 - SENI PEDALANGA (Sarjana)N"
+            "3542117 - SENI PEDALANGAN (Sarjana)"
         ]
     },
     "1355 - UNIVERSITAS DIPONEGORO": {
@@ -1899,7 +1899,7 @@ const universities = {
             "3551317 - AGROEKOTEKNOLOGI (Sarjana)",
             "3551325 - AGRIBISNIS (Sarjana)",
             "3551333 - KEDOKTERAN GIGI (Sarjana)",
-            "3551341 - FARMAS (Sarjana)I"
+            "3551341 - FARMASI (Sarjana)"
         ],
         "SOSHUM": [
             "3552015 - BAHASA & SASTRA INDONESIA (Sarjana)",
@@ -1918,7 +1918,7 @@ const universities = {
             "3552143 - BAHASA DAN KEBUDAYAAN JEPANG (Sarjana)",
             "3552151 - HUBUNGAN INTERNASIONAL (Sarjana)",
             "3552166 - ANTROPOLOGI SOSIAL (Sarjana)",
-            "3552174 - EKONOMI ISLA (Sarjana)M"
+            "3552174 - EKONOMI ISLAM (Sarjana)"
         ]
     },
     "1356 - UNIVERSITAS NEGERI SEMARANG": {
@@ -1945,7 +1945,7 @@ const universities = {
             "3561207 - TEKNIK SIPIL (Sarjana)",
             "3561215 - TEKNIK INFORMATIKA (Sarjana)",
             "3561223 - TEKNIK ELEKTRO (Sarjana)",
-            "3561231 - GIZ (Sarjana)I"
+            "3561231 - GIZI (Sarjana)"
         ],
         "SOSHUM": [
             "3562017 - BIMBINGAN DAN KONSELING (Sarjana)",
@@ -1990,7 +1990,7 @@ const universities = {
             "3562404 - ILMU POLITIK (Sarjana)",
             "3562412 - PENDIDIKAN JASMANI KESEHATAN DAN REKREASI (PENDIDIKAN GURU PENDIDIKAN JASMANI SEKOLAH DASAR) (Sarjana)",
             "3562435 - PENDIDIKAN ILMU PENGETAHUAN SOSIAL (Sarjana)",
-            "3562443 - PENDIDIKAN KESEJAHTERAAN KELUARG (Sarjana)A"
+            "3562443 - PENDIDIKAN KESEJAHTERAAN KELUARGA (Sarjana)"
         ]
     },
     "1357 - UNIVERSITAS ISLAM NEGERI WALISONGO": {
@@ -2000,7 +2000,7 @@ const universities = {
             "3571071 - KIMIA (Sarjana)",
             "3571086 - FISIKA (Sarjana)",
             "3571094 - BIOLOGI (Sarjana)",
-            "3571105 - TEKNOLOGI INFORMAS (Sarjana)I"
+            "3571105 - TEKNOLOGI INFORMASI (Sarjana)"
         ],
         "SOSHUM": [
             "3572194 - PSIKOLOGI (Sarjana)",
@@ -2055,7 +2055,7 @@ const universities = {
             "3611461 - TEKNOLOGI INDUSTRI PERTANIAN (Sarjana)",
             "3611476 - HIGIENE GIGI (Sarjana)",
             "3611484 - KEHUTANAN (Sarjana)",
-            "3611492 - TEKNOLOGI INFORMAS (Sarjana)I"
+            "3611492 - TEKNOLOGI INFORMASI (Sarjana)"
         ],
         "SOSHUM": [
             "3612015 - ILMU EKONOMI (Sarjana)",
@@ -2080,7 +2080,7 @@ const universities = {
             "3612201 - ILMU KOMUNIKASI (Sarjana)",
             "3612216 - SOSIOLOGI (Sarjana)",
             "3612224 - PSIKOLOGI (Sarjana)",
-            "3612232 - PARIWISAT (Sarjana)A"
+            "3612232 - PARIWISATA (Sarjana)"
         ]
     },
     "1362 - UNIVERSITAS NEGERI YOGYAKARTA": {
@@ -2102,7 +2102,7 @@ const universities = {
             "3621157 - PENDIDIKAN TEKNIK INFORMATIKA (Sarjana)",
             "3621165 - PENDIDIKAN IPA (Sarjana)",
             "3621173 - ILMU KEOLAHRAGAAN (Sarjana)",
-            "3621397 - STATISTIK (Sarjana)A"
+            "3621397 - STATISTIKA (Sarjana)"
         ],
         "SOSHUM": [
             "3622017 - MANAJEMEN PENDIDIKAN (Sarjana)",
@@ -2142,7 +2142,7 @@ const universities = {
             "3622354 - PENDIDIKAN BAHASA DAN SASTRA INDONESIA (Sarjana)",
             "3622362 - PENDIDIKAN BAHASA JAWA (Sarjana)",
             "3622377 - ILMU KOMUNIKASI (Sarjana)",
-            "3622385 - PSIKOLOG (Sarjana)I"
+            "3622385 - PSIKOLOGI (Sarjana)"
         ]
     },
     "1363 - UPN \"VETERAN\" YOGYAKARTA": {
@@ -2159,7 +2159,7 @@ const universities = {
             "3631105 - AGRIBISNIS (Sarjana)",
             "3631113 - METALURGI (Sarjana)",
             "3631121 - ILMU TANAH (Sarjana)",
-            "3631136 - SISTEM INFORMAS (Sarjana)I"
+            "3631136 - SISTEM INFORMASI (Sarjana)"
         ],
         "SOSHUM": [
             "3632012 - MANAJEMEN (Sarjana)",
@@ -2168,7 +2168,7 @@ const universities = {
             "3632043 - ILMU HUBUNGAN INTERNASIONAL (Sarjana)",
             "3632051 - ILMU ADMINISTRASI BISNIS (Sarjana)",
             "3632066 - ILMU KOMUNIKASI (Sarjana)",
-            "3632074 - HUBUNGAN MASYARAKA (Sarjana)T"
+            "3632074 - HUBUNGAN MASYARAKAT (Sarjana)"
         ]
     },
     "1364 - ISI YOGYAKARTA": {
@@ -2203,7 +2203,7 @@ const universities = {
             "3651075 - PENDIDIKAN MATEMATIKA (Sarjana)",
             "3651083 - PENDIDIKAN FISIKA (Sarjana)",
             "3651091 - PENDIDIKAN KIMIA (Sarjana)",
-            "3651102 - PENDIDIKAN BIOLOG (Sarjana)I"
+            "3651102 - PENDIDIKAN BIOLOGI (Sarjana)"
         ],
         "SOSHUM": [
             "3652032 - ILMU PERPUSTAKAAN (IP) (Sarjana)",
@@ -2212,7 +2212,7 @@ const universities = {
             "3652225 - ILMU KOMUNIKASI (Sarjana)",
             "3652241 - SASTRA INGGRIS (SI) (Sarjana)",
             "3652272 - ILMU HUKUM (IH) (Sarjana)",
-            "3652287 - ILMU KESEJAHTERAAN SOSIAL (IKS (Sarjana))"
+            "3652287 - ILMU KESEJAHTERAAN SOSIAL (IKS) (Sarjana)"
         ]
     },
     "1371 - UNIVERSITAS JEMBER": {
@@ -2250,7 +2250,7 @@ const universities = {
             "3711342 - PENYULUHAN PERTANIAN (Sarjana)",
             "3711357 - TEKNIK LINGKUNGAN (Sarjana)",
             "3711365 - TEKNIK KONSTRUKSI PERKAPALAN (Sarjana)",
-            "3711373 - PETERNAKA (Sarjana)N"
+            "3711373 - PETERNAKAN (Sarjana)"
         ],
         "SOSHUM": [
             "3712016 - ILMU HUKUM (Sarjana)",
@@ -2276,7 +2276,7 @@ const universities = {
             "3712217 - EKONOMI SYARIAH (Sarjana)",
             "3712225 - PENDIDIKAN GEOGRAFI (Sarjana)",
             "3712233 - EKONOMI SYARIAH KAMPUS BONDOWOSO (Sarjana)",
-            "3712241 - PEND. GURU SEKOLAH DASAR KAMPUS BONDOWOS (Sarjana)O"
+            "3712241 - PEND. GURU SEKOLAH DASAR KAMPUS BONDOWOSO (Sarjana)"
         ]
     },
     "1372 - UNIVERSITAS BRAWIJAYA": {
@@ -2322,7 +2322,7 @@ const universities = {
             "13721042 - TEKNOLOGI BIOPROSES (Sarjana)",
             "13721043 - TEKNIK LINGKUNGAN (Sarjana)",
             "13721046 - PENDIDIKAN TEKNOLOGI INFORMASI (Sarjana)",
-            "13721047 - TEKNOLOGI INFORMAS (Sarjana)I"
+            "13721047 - TEKNOLOGI INFORMASI (Sarjana)"
         ],
         "SOSHUM": [
             "13721056 - ILMU HUKUM (Sarjana)",
@@ -2352,7 +2352,7 @@ const universities = {
             "13721086 - SENI RUPA MURNI (Sarjana)",
             "13721087 - SASTRA CINA (Sarjana)",
             "13721088 - ANTROPOLOGI SOSIAL (Sarjana)",
-            "13721089 - KEWIRAUSAHAA (Sarjana)N"
+            "13721089 - KEWIRAUSAHAAN (Sarjana)"
         ]
     },
     "1373 - UNIVERSITAS NEGERI MALANG": {
@@ -2377,7 +2377,7 @@ const universities = {
             "3731192 - TEKNIK MESIN (Sarjana)",
             "3731203 - TEKNIK ELEKTRO (Sarjana)",
             "3731211 - TEKNIK INFORMATIKA (Sarjana)",
-            "3731226 - TEKNIK INDUSTR (Sarjana)I"
+            "3731226 - TEKNIK INDUSTRI (Sarjana)"
         ],
         "SOSHUM": [
             "3732013 - BIMBINGAN DAN KONSELING (Sarjana)",
@@ -2416,7 +2416,7 @@ const universities = {
             "3732342 - PENDIDIKAN KEPELATIHAN OLAHRAGA (Sarjana)",
             "3732357 - GEOGRAFI (Sarjana)",
             "3732365 - PENDIDIKAN SOSIOLOGI (Sarjana)",
-            "3732373 - ILMU PERPUSTAKAA (Sarjana)N"
+            "3732373 - ILMU PERPUSTAKAAN (Sarjana)"
         ]
     },
     "1374 - UNIVERSITAS ISLAM NEGERI MALANG": {
@@ -2428,14 +2428,14 @@ const universities = {
             "3741051 - TEKNIK INFORMATIKA (Sarjana)",
             "3741066 - TEKNIK ARSITEKTUR (Sarjana)",
             "3741074 - FARMASI (Sarjana)",
-            "3741124 - PENDIDIKAN DOKTE (Sarjana)R"
+            "3741124 - PENDIDIKAN DOKTER (Sarjana)"
         ],
         "SOSHUM": [
             "3742023 - PENDIDIKAN IPS (Sarjana)",
             "3742077 - BAHASA DAN SASTRA INGGRIS (Sarjana)",
             "3742093 - PSIKOLOGI (Sarjana)",
             "3742104 - MANAJEMEN (Sarjana)",
-            "3742112 - AKUNTANS (Sarjana)I"
+            "3742112 - AKUNTANSI (Sarjana)"
         ]
     },
     "1381 - UNIVERSITAS AIRLANGGA": {
@@ -2460,7 +2460,7 @@ const universities = {
             "3811181 - PENDIDIKAN DOKTER HEWAN (PSDKU BANYUWANGI) (Sarjana)",
             "3811196 - KESEHATAN MASYARAKAT (PSDKU BANYUWANGI) (Sarjana)",
             "3811207 - BUDIDAYA PERAIRAN (PSDKU BANYUWANGI) (Sarjana)",
-            "3811215 - TEKNOLOGI INDUSTRI HASIL PERIKANA (Sarjana)N"
+            "3811215 - TEKNOLOGI INDUSTRI HASIL PERIKANAN (Sarjana)"
         ],
         "SOSHUM": [
             "3812017 - ILMU HUKUM (Sarjana)",
@@ -2515,10 +2515,10 @@ const universities = {
             "3821295 - TEKNIK BIOMEDIK (Sarjana)",
             "3821306 - SAINS AKTUARIA (Sarjana)",
             "3821314 - TEKNOLOGI INFORMASI (Sarjana)",
-            "3821322 - DESAIN KOMUNIKASI VISUA (Sarjana)L"
+            "3821322 - DESAIN KOMUNIKASI VISUAL (Sarjana)"
         ],
         "SOSHUM": [
-            "3822012 - MANAJEMEN BISNI (Sarjana)S"
+            "3822012 - MANAJEMEN BISNIS (Sarjana)"
         ]
     },
     "1383 - UNIVERSITAS NEGERI SURABAYA": {
@@ -2542,7 +2542,7 @@ const universities = {
             "3831177 - TEKNIK MESIN (Sarjana)",
             "3831185 - SISTEM INFORMASI (Sarjana)",
             "3831193 - TEKNIK INFORMATIKA (Sarjana)",
-            "3831204 - GIZ (Sarjana)I"
+            "3831204 - GIZI (Sarjana)"
         ],
         "SOSHUM": [
             "3832014 - PSIKOLOGI PENDIDIKAN DAN BIMBINGAN (Sarjana)",
@@ -2587,7 +2587,7 @@ const universities = {
             "3832416 - SENI RUPA MURNI (Sarjana)",
             "3832424 - EKONOMI ISLAM (Sarjana)",
             "3832432 - PEND. ILMU PENGETAHUAN SOSIAL (Sarjana)",
-            "3832447 - EKONOM (Sarjana)I"
+            "3832447 - EKONOMI (Sarjana)"
         ]
     },
     "1384 - UNIVERSITAS TRUNOJOYO MADURA": {
@@ -2604,7 +2604,7 @@ const universities = {
             "3841102 - MANAJEMEN SUMBERDAYA PERAIRAN (Sarjana)",
             "3841117 - TEKNIK MESIN (Sarjana)",
             "3841125 - TEKNIK MEKATRONIKA (Sarjana)",
-            "3841133 - SISTEM INFORMAS (Sarjana)I"
+            "3841133 - SISTEM INFORMASI (Sarjana)"
         ],
         "SOSHUM": [
             "3842016 - ILMU HUKUM (Sarjana)",
@@ -2619,7 +2619,7 @@ const universities = {
             "3842105 - HUKUM BISNIS SYARIAH (Sarjana)",
             "3842113 - EKONOMI SYARIAH (Sarjana)",
             "3842121 - PENDIDIKAN BAHASA DAN SASTRA INDONESIA (Sarjana)",
-            "3842136 - PENDIDIKAN GURU ANAK USIA DIN (Sarjana)I"
+            "3842136 - PENDIDIKAN GURU ANAK USIA DINI (Sarjana)"
         ]
     },
     "1385 - UPN \"VETERAN\" JAWA TIMUR": {
@@ -2634,7 +2634,7 @@ const universities = {
             "3851085 - ARSITEKTUR (Sarjana)",
             "3851093 - TEKNIK LINGKUNGAN (Sarjana)",
             "3851104 - TEKNIK SIPIL (Sarjana)",
-            "3851112 - DESAIN KOMUNIKASI VISUA (Sarjana)L"
+            "3851112 - DESAIN KOMUNIKASI VISUAL (Sarjana)"
         ],
         "SOSHUM": [
             "3852011 - EKONOMI PEMBANGUNAN (Sarjana)",
@@ -2644,7 +2644,7 @@ const universities = {
             "3852057 - ADMINISTRASI BISNIS/NIAGA (Sarjana)",
             "3852065 - ILMU KOMUNIKASI (Sarjana)",
             "3852073 - ILMU HUBUNGAN INTERNASIONAL (Sarjana)",
-            "3852081 - ILMU HUKU (Sarjana)M"
+            "3852081 - ILMU HUKUM (Sarjana)"
         ]
     },
     "1386 - UNIVERSITAS ISLAM NEGERI SUNAN AMPEL SURABAYA": {
@@ -2655,7 +2655,7 @@ const universities = {
             "3861041 - SISTEM INFORMASI (Sarjana)",
             "3861056 - ILMU KELAUTAN (Sarjana)",
             "3861064 - BIOLOGI (Sarjana)",
-            "3861072 - MATEMATIK (Sarjana)A"
+            "3861072 - MATEMATIKA (Sarjana)"
         ],
         "SOSHUM": [
             "3862013 - PENDIDIKAN BAHASA INGGRIS (Sarjana)",
@@ -2704,7 +2704,7 @@ const universities = {
             "5111343 - TEKNIK KIMIA (Sarjana)",
             "5111351 - TEKNIK MESIN (Sarjana)",
             "5111366 - ILMU TANAH (Sarjana)",
-            "5111374 - SISTEM INFORMAS (Sarjana)I"
+            "5111374 - SISTEM INFORMASI (Sarjana)"
         ],
         "SOSHUM": [
             "5112017 - ILMU HUKUM (Sarjana)",
@@ -2763,7 +2763,7 @@ const universities = {
             "5211232 - TEKNOLOGI INDUSTRI PERTANIAN (Sarjana)",
             "5211247 - FISIKA (Sarjana)",
             "5211255 - KIMIA (Sarjana)",
-            "5211263 - BIOLOG (Sarjana)I"
+            "5211263 - BIOLOGI (Sarjana)"
         ],
         "SOSHUM": [
             "5212011 - PEND. PANCASILA & KEWARGANEGARAAN (PPKN) (Sarjana)",
@@ -2784,7 +2784,7 @@ const universities = {
             "5212162 - TEKNOLOGI PENDIDIKAN (Sarjana)",
             "5212185 - MANAJEMEN PENDIDIKAN (Sarjana)",
             "5212193 - ILMU PEMERINTAHAN (Sarjana)",
-            "5212204 - PENDIDIKAN SENDRATASI (Sarjana)K"
+            "5212204 - PENDIDIKAN SENDRATASIK (Sarjana)"
         ]
     },
     "1531 - UNIVERSITAS LAMBUNG MANGKURAT": {
@@ -2826,7 +2826,7 @@ const universities = {
             "5311392 - PENDIDIKAN ILMU KOMPUTER (Sarjana)",
             "5311403 - PENDIDIKAN IPA (Sarjana)",
             "5311411 - TEKNIK INFORMATIKA (Sarjana)",
-            "5311426 - STATISTIK (Sarjana)A"
+            "5311426 - STATISTIKA (Sarjana)"
         ],
         "SOSHUM": [
             "5312012 - PEND. SEJARAH (Sarjana)",
@@ -2852,7 +2852,7 @@ const universities = {
             "5312213 - PENDIDIKAN SENDRATASIK (Sarjana)",
             "5312221 - TEKNOLOGI PENDIDIKAN (Sarjana)",
             "5312236 - PENDIDIKAN IPS (Sarjana)",
-            "5312244 - PSIKOLOG (Sarjana)I"
+            "5312244 - PSIKOLOGI (Sarjana)"
         ]
     },
     "1541 - UNIVERSITAS MULAWARMAN": {
@@ -2890,7 +2890,7 @@ const universities = {
             "5411331 - MATEMATIKA (Sarjana)",
             "5411346 - ILMU KELAUTAN (Sarjana)",
             "5411354 - GEOFISIKA (Sarjana)",
-            "5411362 - PENDIDIKAN KOMPUTE (Sarjana)R"
+            "5411362 - PENDIDIKAN KOMPUTER (Sarjana)"
         ],
         "SOSHUM": [
             "5412013 - MANAJEMEN (Sarjana)",
@@ -2918,7 +2918,7 @@ const universities = {
             "5412237 - PENDIDIKAN GEOGRAFI (Sarjana)",
             "5412245 - EKONOMI ISLAM (Sarjana)",
             "5412253 - ETNOMUSIKOLOGI (Sarjana)",
-            "5412261 - PENDIDIKAN SEJARA (Sarjana)H"
+            "5412261 - PENDIDIKAN SEJARAH (Sarjana)"
         ]
     },
     "1542 - INSTITUT TEKNOLOGI KALIMANTAN": {
@@ -2936,7 +2936,7 @@ const universities = {
             "5421116 - TEKNIK INDUSTRI (Sarjana)",
             "5421124 - INFORMATIKA (Sarjana)",
             "5421132 - TEKNIK LINGKUNGAN (Sarjana)",
-            "5421147 - TEKNIK KELAUTA (Sarjana)N"
+            "5421147 - TEKNIK KELAUTAN (Sarjana)"
         ]
     },
     "1551 - UNIVERSITAS BORNEO TARAKAN": {
@@ -2950,7 +2950,7 @@ const universities = {
             "5511096 - MANAJEMEN SUMBER DAYA PERAIRAN (Sarjana)",
             "5511107 - BUDIDAYA PERAIRAN (Sarjana)",
             "5511115 - TEKNOLOGI HASIL PERIKANAN (Sarjana)",
-            "5511123 - TEKNIK MESI (Sarjana)N"
+            "5511123 - TEKNIK MESIN (Sarjana)"
         ],
         "SOSHUM": [
             "5512014 - BIMBINGAN DAN KONSELING (Sarjana)",
@@ -2959,7 +2959,7 @@ const universities = {
             "5512076 - EKONOMI PEMBANGUNAN (Sarjana)",
             "5512084 - MANAJEMEN (Sarjana)",
             "5512092 - ILMU HUKUM (Sarjana)",
-            "5512111 - PENDIDIKAN GURU SEKOLAH DASA (Sarjana)R"
+            "5512111 - PENDIDIKAN GURU SEKOLAH DASAR (Sarjana)"
         ]
     },
     "1611 - UNIVERSITAS UDAYANA": {
@@ -2989,7 +2989,7 @@ const universities = {
             "6111231 - ILMU KELAUTAN (Sarjana)",
             "6111246 - ARSITEKTUR PERTAMANAN (Sarjana)",
             "6111254 - MANAJEMEN SUMBER DAYA PERAIRAN (Sarjana)",
-            "6111262 - PENDIDIKAN DOKTER GIG (Sarjana)I"
+            "6111262 - PENDIDIKAN DOKTER GIGI (Sarjana)"
         ],
         "SOSHUM": [
             "6112017 - ARKEOLOGI (Sarjana)",
@@ -3011,7 +3011,7 @@ const universities = {
             "6112184 - PSIKOLOGI (Sarjana)",
             "6112203 - ADMINISTRASI NEGARA (Sarjana)",
             "6112211 - ILMU KOMUNIKASI (Sarjana)",
-            "6112226 - ILMU POLITI (Sarjana)K"
+            "6112226 - ILMU POLITIK (Sarjana)"
         ]
     },
     "1612 - UNIVERSITAS PENDIDIKAN GANESHA": {
@@ -3029,7 +3029,7 @@ const universities = {
             "6121167 - MATEMATIKA (Sarjana)",
             "6121175 - BIOLOGI (Sarjana)",
             "6121183 - AKUAKULTUR (Sarjana)",
-            "6121191 - SISTEM INFORMAS (Sarjana)I"
+            "6121191 - SISTEM INFORMASI (Sarjana)"
         ],
         "SOSHUM": [
             "6122012 - PENDIDIKAN PANCASILA DAN KEWARGANEGARAAN (Sarjana)",
@@ -3051,7 +3051,7 @@ const universities = {
             "6122205 - PEND. BAHASA JEPANG (Sarjana)",
             "6122213 - PENDIDIKAN BAHASA BALI (Sarjana)",
             "6122221 - PENDIDIKAN SOSIOLOGI (Sarjana)",
-            "6122236 - ILMU HUKU (Sarjana)M"
+            "6122236 - ILMU HUKUM (Sarjana)"
         ]
     },
     "1613 - ISI DENPASAR": {
@@ -3065,7 +3065,7 @@ const universities = {
             "6132076 - DESAIN KOMUNIKASI VISUAL (Sarjana)",
             "6132084 - KRIYA (Sarjana)",
             "6132092 - FOTOGRAFI (Sarjana)",
-            "6132103 - SENI PEDALANGA (Sarjana)N"
+            "6132103 - SENI PEDALANGAN (Sarjana)"
         ]
     },
     "1621 - UNIVERSITAS MATARAM": {
@@ -3091,7 +3091,7 @@ const universities = {
             "6211255 - BUDIDAYA PERAIRAN (Sarjana)",
             "6211263 - TEKNIK INFORMATIKA (Sarjana)",
             "6211271 - FARMASI (Sarjana)",
-            "6211286 - ILMU TANA (Sarjana)H"
+            "6211286 - ILMU TANAH (Sarjana)"
         ],
         "SOSHUM": [
             "6212011 - EKONOMI PEMBANGUNAN (Sarjana)",
@@ -3106,7 +3106,7 @@ const universities = {
             "6212107 - HUBUNGAN INTERNASIONAL (Sarjana)",
             "6212115 - ILMU KOMUNIKASI (Sarjana)",
             "6212123 - SOSIOLOGI (Sarjana)",
-            "6212131 - PENDIDIKAN SOSIOLOG (Sarjana)I"
+            "6212131 - PENDIDIKAN SOSIOLOGI (Sarjana)"
         ]
     },
     "1631 - UNIVERSITAS NUSA CENDANA": {
@@ -3136,7 +3136,7 @@ const universities = {
             "6311241 - BUDIDAYA PERIKANAN (Sarjana)",
             "6311256 - KEDOKTERAN HEWAN (Sarjana)",
             "6311264 - KEHUTANAN (Sarjana)",
-            "6311272 - MANAJEMEN SUMBER DAYA PERAIRA (Sarjana)N"
+            "6311272 - MANAJEMEN SUMBER DAYA PERAIRAN (Sarjana)"
         ],
         "SOSHUM": [
             "6312012 - PEND. BHS & SASTRA INDO. (Sarjana)",
@@ -3159,7 +3159,7 @@ const universities = {
             "6312186 - EKONOMI PEMBANGUNAN (Sarjana)",
             "6312194 - AKUNTANSI (Sarjana)",
             "6312205 - MANAJEMEN (Sarjana)",
-            "6312213 - PSIKOLOG (Sarjana)I"
+            "6312213 - PSIKOLOGI (Sarjana)"
         ]
     },
     "1632 - UNIVERSITAS TIMOR": {
@@ -3172,7 +3172,7 @@ const universities = {
             "6321065 - BIOLOGI (Sarjana)",
             "6321073 - MATEMATIKA (Sarjana)",
             "6321081 - KIMIA (Sarjana)",
-            "6321096 - TEKNOLOGI INFORMAS (Sarjana)I"
+            "6321096 - TEKNOLOGI INFORMASI (Sarjana)"
         ],
         "SOSHUM": [
             "6322014 - ADM. NEGARA (Sarjana)",
@@ -3224,7 +3224,7 @@ const universities = {
             "7111401 - TEKNIK LINGKUNGAN (Sarjana)",
             "7111416 - KEDOKTERAN HEWAN (Sarjana)",
             "7111424 - PSIKOLOGI (Sarjana)",
-            "7111432 - ILMU KOMPUTE (Sarjana)R"
+            "7111432 - ILMU KOMPUTER (Sarjana)"
         ],
         "SOSHUM": [
             "7112025 - MANAJEMEN (Sarjana)",
@@ -3246,7 +3246,7 @@ const universities = {
             "7112184 - ARKEOLOGI (Sarjana)",
             "7112192 - SASTRA JEPANG (Sarjana)",
             "7112203 - ILMU EKONOMI (Sarjana)",
-            "7112211 - HUKUM ADMINISTRASI NEGAR (Sarjana)A"
+            "7112211 - HUKUM ADMINISTRASI NEGARA (Sarjana)"
         ]
     },
     "1712 - UNIVERSITAS NEGERI MAKASSAR": {
@@ -3277,7 +3277,7 @@ const universities = {
             "7121256 - PENDIDIKAN IPA KLS INTERNASIONAL (BILINGUAL) (Sarjana)",
             "7121264 - STATISTIKA (Sarjana)",
             "7121272 - PENDIDIKAN VOKASIONAL MEKATRONIKA (Sarjana)",
-            "7121287 - TEKNIK KOMPUTE (Sarjana)R"
+            "7121287 - TEKNIK KOMPUTER (Sarjana)"
         ],
         "SOSHUM": [
             "7122012 - PENDIDIKAN GEOGRAFI (Sarjana)",
@@ -3319,7 +3319,7 @@ const universities = {
             "7122445 - PENDIDIKAN BAHASA DAN SASTRA DAERAH (Sarjana)",
             "7122453 - PENDIDIKAN BAHASA ARAB (Sarjana)",
             "7122461 - ILMU ADMINISTRASI BISNIS (Sarjana)",
-            "7122476 - PENDIDIKAN BAHASA MANDARI (Sarjana)N"
+            "7122476 - PENDIDIKAN BAHASA MANDARIN (Sarjana)"
         ]
     },
     "1713 - UNIVERSITAS ISLAM NEGERI ALAUDDIN": {
@@ -3330,7 +3330,7 @@ const universities = {
             "7131073 - TEKNIK ARSITEKTUR (Sarjana)",
             "7131081 - ILMU PETERNAKAN (Sarjana)",
             "7131154 - SISTEM INFORMASI (Sarjana)",
-            "7131162 - PENDIDIKAN DOKTE (Sarjana)R"
+            "7131162 - PENDIDIKAN DOKTER (Sarjana)"
         ],
         "SOSHUM": [
             "7132014 - ILMU HUKUM (Sarjana)",
@@ -3375,7 +3375,7 @@ const universities = {
             "7211294 - SISTEM INFORMASI (Sarjana)",
             "7211305 - ILMU TANAH (Sarjana)",
             "7211313 - AGRONOMI (Sarjana)",
-            "7211321 - PROTEKSI TANAMA (Sarjana)N"
+            "7211321 - PROTEKSI TANAMAN (Sarjana)"
         ],
         "SOSHUM": [
             "7212011 - EKONOMI PEMBANGNAN (Sarjana)",
@@ -3416,7 +3416,7 @@ const universities = {
             "7221354 - TEKNIK INFORMATIKA (Sarjana)",
             "7221362 - TEKNIK SIPIL (Sarjana)",
             "7221377 - ILMU KESEHATAN MASYARAKAT (Sarjana)",
-            "7221385 - TEKNIK MESI (Sarjana)N"
+            "7221385 - TEKNIK MESIN (Sarjana)"
         ],
         "SOSHUM": [
             "7222013 - PEND. KES. KEL (Sarjana)",
@@ -3446,7 +3446,7 @@ const universities = {
             "7222276 - PEND. ANAK USIA DINI (Sarjana)",
             "7222284 - PENDIDIKAN SOSIOLOGI (Sarjana)",
             "7222303 - PENDIDIKAN IPS (Sarjana)",
-            "7222311 - ILMU EKONOM (Sarjana)I"
+            "7222311 - ILMU EKONOMI (Sarjana)"
         ]
     },
     "1731 - UNIVERSITAS TADULAKO": {
@@ -3480,7 +3480,7 @@ const universities = {
             "7311287 - AGROTEKNOLOGI (PSDKU MOROWALI) (Sarjana)",
             "7311295 - TEKNIK SIPIL (PSDKU MOROWALI) (Sarjana)",
             "7311306 - AGROTEKNOLOGI (PSDKU TOUNA) (Sarjana)",
-            "7311314 - TEKNIK SIPIL (PSDKU TOUNA (Sarjana))"
+            "7311314 - TEKNIK SIPIL (PSDKU TOUNA) (Sarjana)"
         ],
         "SOSHUM": [
             "7312012 - PEND. BAHASA INDONESIA (Sarjana)",
@@ -3502,7 +3502,7 @@ const universities = {
             "7312171 - PEND. JASMANI, KESEHATAN DAN REKREASI (Sarjana)",
             "7312186 - PEND. GEOGRAFI (Sarjana)",
             "7312194 - MANAJEMEN (PSDKU MOROWALI) (Sarjana)",
-            "7312205 - MANAJEMEN (PSDKU TOUNA (Sarjana))"
+            "7312205 - MANAJEMEN (PSDKU TOUNA) (Sarjana)"
         ]
     },
     "1741 - UNIVERSITAS SULAWESI BARAT": {
@@ -3518,7 +3518,7 @@ const universities = {
             "7411095 - PEND. FISIKA (Sarjana)",
             "7411106 - PETERNAKAN (Sarjana)",
             "7411114 - BUDIDAYA PERAIRAN (Sarjana)",
-            "7411122 - PERIKANAN TANGKA (Sarjana)P"
+            "7411122 - PERIKANAN TANGKAP (Sarjana)"
         ],
         "SOSHUM": [
             "7412013 - MANAJEMEN (Sarjana)",
@@ -3526,7 +3526,7 @@ const universities = {
             "7412036 - ILMU POLITIK (Sarjana)",
             "7412044 - ILMU HUBUNGAN INTERNASIONAL (Sarjana)",
             "7412052 - ILMU HUKUM (Sarjana)",
-            "7412067 - PEND. BHS. INGGRI (Sarjana)S"
+            "7412067 - PEND. BHS. INGGRIS (Sarjana)"
         ]
     },
     "1751 - UNIVERSITAS HALUOLEO": {
@@ -3572,7 +3572,7 @@ const universities = {
             "7511413 - STATISTIKA (Sarjana)",
             "7511421 - ILMU KOMPUTER (Sarjana)",
             "7511436 - REKAYASA INFRASTRUKTUR DAN LINGKUNGAN (Sarjana)",
-            "7511444 - TEKNIK KELAUTA (Sarjana)N"
+            "7511444 - TEKNIK KELAUTAN (Sarjana)"
         ],
         "SOSHUM": [
             "7512014 - EKONOMI PEMBANGUNAN (Sarjana)",
@@ -3605,7 +3605,7 @@ const universities = {
             "7512293 - ILMU POLITIK (Sarjana)",
             "7512304 - PENDIDIKAN AKUNTANSI (Sarjana)",
             "7512312 - SASTRA PRANCIS (Sarjana)",
-            "7512327 - PERPUSTAKAAN DAN ILMU INFORMAS (Sarjana)I"
+            "7512327 - PERPUSTAKAAN DAN ILMU INFORMASI (Sarjana)"
         ]
     },
     "1752 - UNIVERSITAS NEGERI GORONTALO": {
@@ -3640,7 +3640,7 @@ const universities = {
             "7521303 - FISIKA (Sarjana)",
             "7521311 - MATEMATIKA (Sarjana)",
             "7521326 - STATISTIKA (Sarjana)",
-            "7521334 - PENDIDIKAN ILMU PENGETAHUAN ALA (Sarjana)M"
+            "7521334 - PENDIDIKAN ILMU PENGETAHUAN ALAM (Sarjana)"
         ],
         "SOSHUM": [
             "7522016 - PENDIDIKAN SEJARAH (Sarjana)",
@@ -3662,7 +3662,7 @@ const universities = {
             "7522175 - SOSIOLOGI (Sarjana)",
             "7522183 - ILMU KOMUNIKASI (Sarjana)",
             "7522191 - EKONOMI PEMBANGUNAN (Sarjana)",
-            "7522202 - ADMINISTRASI PUBLI (Sarjana)K"
+            "7522202 - ADMINISTRASI PUBLIK (Sarjana)"
         ]
     },
     "1753 - UNIVERSITAS SEMBILAN BELAS NOVEMBER KOLAKA": {
@@ -3679,7 +3679,7 @@ const universities = {
             "7531104 - PENDIDIKAN KIMIA (Sarjana)",
             "7531112 - TEKNOLOGI HASIL PERTANIAN (Sarjana)",
             "7531127 - KIMIA (Sarjana)",
-            "7531135 - ILMU KOMPUTE (Sarjana)R"
+            "7531135 - ILMU KOMPUTER (Sarjana)"
         ],
         "SOSHUM": [
             "7532011 - ILMU HUKUM (Sarjana)",
@@ -3691,7 +3691,7 @@ const universities = {
             "7532073 - PENDIDIKAN PANCASILA DAN KEWARGANEGARAAN (Sarjana)",
             "7532081 - MANAJEMEN (Sarjana)",
             "7532096 - ILMU KEOLAHRAGAAN (Sarjana)",
-            "7532107 - EKONOMI PEMBANGUNA (Sarjana)N"
+            "7532107 - EKONOMI PEMBANGUNAN (Sarjana)"
         ]
     },
     "1811 - UNIVERSITAS PATTIMURA": {
@@ -3728,7 +3728,7 @@ const universities = {
             "8111304 - STATISTIKA (Sarjana)",
             "8111312 - PETERNAKAN (PSDKU KAB. MBD) (Sarjana)",
             "8111327 - PENDIDIKAN MATEMATIKA (PSDKU KAB. MBD) (Sarjana)",
-            "8111335 - PENDIDIKAN MATEMATIKA (PSDKU KAB. ARU (Sarjana))"
+            "8111335 - PENDIDIKAN MATEMATIKA (PSDKU KAB. ARU) (Sarjana)"
         ],
         "SOSHUM": [
             "8112017 - IL. HUKUM (Sarjana)",
@@ -3759,7 +3759,7 @@ const universities = {
             "8112265 - AKUNTANSI (PSDKU KAB. ARU) (Sarjana)",
             "8112273 - PEND. GURU SEKOLAH DASAR (PSDKU KAB. ARU) (Sarjana)",
             "8112281 - PEND. BAHASA INGGRIS (PSDKU KAB. ARU) (Sarjana)",
-            "8112296 - PEND. JASMANI, KESEHATAN, DAN REKREASI (PSDKU KAB. ARU (Sarjana))"
+            "8112296 - PEND. JASMANI, KESEHATAN, DAN REKREASI (PSDKU KAB. ARU) (Sarjana)"
         ]
     },
     "1821 - UNIVERSITAS KHAIRUN": {
@@ -3784,7 +3784,7 @@ const universities = {
             "8211201 - TEKNIK PERTAMBANGAN (Sarjana)",
             "8211216 - AGRIBISNIS (Sarjana)",
             "8211224 - PENDIDIKAN DOKTER (Sarjana)",
-            "8211232 - ILMU TANA (Sarjana)H"
+            "8211232 - ILMU TANAH (Sarjana)"
         ],
         "SOSHUM": [
             "8212011 - ILMU HUKUM (Sarjana)",
@@ -3800,7 +3800,7 @@ const universities = {
             "8212115 - PEND. GEOGRAFI (Sarjana)",
             "8212123 - PGSD S1 (Sarjana)",
             "8212131 - ANTROPOLOGI SOSIAL (Sarjana)",
-            "8212146 - PG PAU (Sarjana)D"
+            "8212146 - PG PAUD (Sarjana)"
         ]
     },
     "1911 - UNIVERSITAS CENDERAWASIH": {
@@ -3827,7 +3827,7 @@ const universities = {
             "9111207 - PERENCANAAN WILAYAH DAN KOTA/PLANOLOGI (Sarjana)",
             "9111215 - ILMU KEOLAHRAGAAN (Sarjana)",
             "9111223 - ILMU PERIKANAN (Sarjana)",
-            "9111231 - STATISTIK (Sarjana)A"
+            "9111231 - STATISTIKA (Sarjana)"
         ],
         "SOSHUM": [
             "9112017 - ILMU EKONOMI (Sarjana)",
@@ -3867,7 +3867,7 @@ const universities = {
             "9121113 - SISTEM INFORMASI (Sarjana)",
             "9121121 - PENDIDIKAN MATEMATIKA (Sarjana)",
             "9121136 - PENDIDIKAN FISIKA (Sarjana)",
-            "9121144 - PENDIDIKAN KIMI (Sarjana)A"
+            "9121144 - PENDIDIKAN KIMIA (Sarjana)"
         ],
         "SOSHUM": [
             "9122012 - EKONOMI PEMBANGUNAN (Sarjana)",
@@ -3880,7 +3880,7 @@ const universities = {
             "9122097 - PENDIDIKAN GURU SEKOLAH DASAR (Sarjana)",
             "9122101 - PENDIDIKAN GURU PENDIDIKAN ANAK USIA DINI (Sarjana)",
             "9122116 - ILMU HUKUM (Sarjana)",
-            "9122124 - SASTRA INGGRI (Sarjana)S"
+            "9122124 - SASTRA INGGRIS (Sarjana)"
         ]
     },
     "1913 - ISBI TANAH PAPUA": {
@@ -3889,7 +3889,7 @@ const universities = {
             "9132022 - SENI RUPA MURNI (Sarjana)",
             "9132037 - SENI KRIYA (Sarjana)",
             "9132045 - SENI MUSIK (Sarjana)",
-            "9132053 - SENI TAR (Sarjana)I"
+            "9132053 - SENI TARI (Sarjana)"
         ]
     },
     "1921 - UNIVERSITAS PAPUA": {
@@ -3916,7 +3916,7 @@ const universities = {
             "9211321 - ILMU TANAH (Sarjana)",
             "9211336 - NUTRISI DAN TEKNOLOGI PAKAN TERNAK (Sarjana)",
             "9211344 - TEKNIK PERTANIAN DAN BIOSISTEM (Sarjana)",
-            "9211352 - TEKNIK SIPI (Sarjana)L"
+            "9211352 - TEKNIK SIPIL (Sarjana)"
         ],
         "SOSHUM": [
             "9212011 - EKONOMI PEMBANGUNAN (Sarjana)",
@@ -3926,7 +3926,7 @@ const universities = {
             "9212057 - AKUNTANSI (Sarjana)",
             "9212065 - PENDIDIKAN BAHASA INDONESIA (Sarjana)",
             "9212073 - PENDIDIKAN BAHASA INGGRIS (Sarjana)",
-            "9212081 - PENDIDIKAN SASTRA INDONESI (Sarjana)A"
+            "9212081 - PENDIDIKAN SASTRA INDONESIA (Sarjana)"
         ]
     }
 }
