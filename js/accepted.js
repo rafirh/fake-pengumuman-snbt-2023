@@ -19,7 +19,7 @@ $(document).ready(function () {
     $('#birth_date').text(birthDate);
 
     $('#college_name').text(localStorage.getItem('college_name'));
-    $('#major').text(localStorage.getItem('major') + ' ' + '(Sarjana)');
+    $('#major').text(localStorage.getItem('major'));
     
     if (localStorage.getItem('is_kip') == '1') {
         $('#kip').css('display', 'block');
