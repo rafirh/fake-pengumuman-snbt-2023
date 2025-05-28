@@ -1432,7 +1432,7 @@ const universities = {
             "3312097 - ILMU KOMUNIKASI     (Sarjana) "
         ]
     },
-    "1332 - INSTITUT TEKNOLOGI BANDUNG": {
+    "332 - INSTITUT TEKNOLOGI BANDUNG": {
         "SAINTEK": [
             "3321011 - FAK. ILMU DAN TEKNOLOGI KEBUMIAN (FITB)",
             "13321002 - FAK. TEKNIK PERTAMB. & PERMINYAKAN (FTTM)",
