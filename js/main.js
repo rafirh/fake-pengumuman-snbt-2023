@@ -61,9 +61,9 @@ $(document).ready(function () {
     //     $('#showoff-modal').modal('show');
     // }, 1000);
 
-    setTimeout(function() {
-        $('#sawer-modal').modal('show');
-    }, 1000);
+    // setTimeout(function() {
+    //     $('#sawer-modal').modal('show');
+    // }, 1000);
 })
 
 $('select[name="college_name"]').change(function () {
