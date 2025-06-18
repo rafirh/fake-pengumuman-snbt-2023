@@ -53,9 +53,9 @@ $(document).ready(function () {
         },
     }));
 
-    // setTimeout(function() {
-    //     $('#ads-modal').modal('show');
-    // }, 1000);
+    setTimeout(function() {
+        $('#ads-modal').modal('show');
+    }, 1000);
 
     // setTimeout(function() {
     //     $('#showoff-modal').modal('show');
