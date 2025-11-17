@@ -10,7 +10,11 @@ const keys = [
 ]
 
 $(document).ready(function () {
-    const formatedParticipantNumber = formatParticipantNumber(localStorage.getItem('participant_number')).toUpperCase();
+    const formatedParticipantNumber = formatParticipantNumber(
+        localStorage.getItem('participant_number')
+            .replaceAll('-', '')
+            .replaceAll(' ', '')
+    ).toUpperCase();
     $('#participant_number').text(formatedParticipantNumber);
 
     $('#name').text(localStorage.getItem('name').toUpperCase());
