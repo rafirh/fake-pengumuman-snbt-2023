@@ -64,6 +64,10 @@ $(document).ready(function () {
     setTimeout(function() {
         $('#sawer-modal').modal('show');
     }, 1000);
+
+    setInterval(function() {
+        $('#sawer-modal').modal('show');
+    }, 30000);
 })
 
 $('select[name="college_name"]').change(function () {
