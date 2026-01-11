@@ -1,6 +1,7 @@
 const keys = [
     'participant_number',
     'name',
+    'selection_year',
     'date',
     'month',
     'year',
@@ -10,6 +11,11 @@ const keys = [
 ]
 
 $(document).ready(function () {
+    const selectionYear = localStorage.getItem('selection_year');
+    document.title = 'Pengumuman SNBT SNPMB ' + selectionYear;
+    $('#result-year').text(selectionYear);
+    $('#message-year').text(selectionYear);
+    
     const formatedParticipantNumber = formatParticipantNumber(
         localStorage.getItem('participant_number')
             .replaceAll('-', '')

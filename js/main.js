@@ -10,12 +10,14 @@ const requiredInputsIfRejected = [
     'status',
     'participant_number',
     'name',
+    'selection_year',
 ]
 
 const requiredInputsIfAccepted = [
     'status',
     'participant_number',
     'name',
+    'selection_year',
     'date',
     'month',
     'year',
@@ -28,6 +30,20 @@ const requiredInputsIfAccepted = [
 let selectedCollege, selectedDepartement;
 
 $(document).ready(function () {
+    // Populate selection_year dropdown
+    const currentYear = new Date().getFullYear();
+    const years = [];
+    for (let i = 0; i < 6; i++) {
+        years.push(currentYear - i);
+    }
+    
+    years.forEach(year => {
+        $('select[name="selection_year"]').append(`<option value="${year}">${year}</option>`);
+    });
+    
+    // Set current year as selected
+    $('select[name="selection_year"]').val(currentYear);
+    
     const colleges = Object.keys(universities);
     addOptionToSelect('college_name', colleges);
 
@@ -77,6 +93,11 @@ $('select[name="college_name"]').change(function () {
     removeOptionFromSelect('departement');
     removeOptionFromSelect('major');
     addOptionToSelect('departement', departements);
+});
+
+$('select[name="selection_year"]').change(function () {
+    const selectedYear = $(this).val();
+    document.title = 'Pengumuman SNBT SNPMB ' + selectedYear;
 });
 
 $('select[name="departement"]').change(function () {

@@ -1,23 +1,23 @@
-
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="id">
+
 <head>
 	<!-- Google tag (gtag.js) -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-WSZLJSLF4X"></script>
 	<script>
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
 
-	gtag('config', 'G-WSZLJSLF4X');
-	gtag('event', 'play', { 'event_category': 'Server Name', 'event_action': 'Server', 'event_label': window.location.hostname });
-	gtag('event', 'play', { 'event_category': 'Page Name', 'event_action': 'Page', 'event_label': 'index.html' });
+		gtag('config', 'G-WSZLJSLF4X');
+		gtag('event', 'play', { 'event_category': 'Server Name', 'event_action': 'Server', 'event_label': window.location.hostname });
+		gtag('event', 'play', { 'event_category': 'Page Name', 'event_action': 'Page', 'event_label': 'index.html' });
 	</script>
 
-	<title>Pengumuman SNBT SNPMB 2026</title>
+	<title>Pengumuman SNBT SNPMB <span id="title-year">2026</span></title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	
+
 	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
 	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
 	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
@@ -27,7 +27,7 @@
 	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
 	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
 	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
-	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="/images/favicon/android-icon-192x192.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
@@ -39,9 +39,10 @@
 	<link rel="stylesheet" href="./css/bootstrap.min.css" />
 	<link rel="stylesheet" href="./css/snbt.css" />
 </head>
+
 <body>
 
-	<div class="container" id="main">	
+	<div class="container" id="main">
 		<div class="box">
 			<div class="card">
 				<div class="row">
@@ -77,22 +78,26 @@
 					<div class="col">
 						<div class="form-group">
 							<label for="nopes">Nomor peserta UTBK-SNBT</label>
-							<input type="number" id="nopes" class="form-control no-spinners" tabindex="1" size="12" autocomplete="off">
+							<input type="number" id="nopes" class="form-control no-spinners" tabindex="1" size="12"
+								autocomplete="off">
 							<small id="nopes-help" class="form-text">Masukkan 12-digit nomor peserta UTBK-SNBT Anda.</small>
 						</div>
 						<div class="form-group">
 							<label>Tanggal lahir</label>
 							<div class="form-row">
 								<div class="col">
-									<input type="number" id="day" class="form-control no-spinners" tabindex="2" maxlength="2"  size="2" autocomplete="off" placeholder="dd">
+									<input type="number" id="day" class="form-control no-spinners" tabindex="2" maxlength="2" size="2"
+										autocomplete="off" placeholder="dd">
 									<small id="day-help" class="form-text">Tanggal (2 digit): 01-31</small>
 								</div>
 								<div class="col">
-									<input type="number" id="month" class="form-control no-spinners" tabindex="3" maxlength="2"  size="2" autocomplete="off" placeholder="mm">
+									<input type="number" id="month" class="form-control no-spinners" tabindex="3" maxlength="2" size="2"
+										autocomplete="off" placeholder="mm">
 									<small id="month-help" class="form-text">Bulan (2 digit): 01-12</small>
 								</div>
 								<div class="col">
-									<input type="number" id="year" class="form-control no-spinners" tabindex="4" maxlength="4"  size="4" autocomplete="off" placeholder="yyyy">
+									<input type="number" id="year" class="form-control no-spinners" tabindex="4" maxlength="4" size="4"
+										autocomplete="off" placeholder="yyyy">
 									<small id="year-help" class="form-text">Tahun (4 digit)</small>
 								</div>
 							</div>
@@ -100,19 +105,20 @@
 						<div class="form-check">
 							<input class="form-check-input" type="checkbox" value="" id="statement">
 							<label class="form-check-label" for="statement">
-								<p class="small">Dengan ini saya menyatakan bahwa apabila di kemudian hari ditemukan kecurangan yang saya lakukan dalam UTBK-SNBT 2026, maka status penerimaan saya dibatalkan.</p>
+								<p class="small">Dengan ini saya menyatakan bahwa apabila di kemudian hari ditemukan kecurangan yang
+									saya lakukan dalam UTBK-SNBT 2026, maka status penerimaan saya dibatalkan.</p>
 							</label>
 						</div>
 						<button id="search" class="btn btn-primary mt-2" type="submit">Lihat Hasil</button>
 					</div>
-					
+
 				</div>
 			</div>
 		</div>
 	</div>
 
 	<div class="container" id="accepted" style="display: none;">
-		
+
 		<div class="box">
 			<div class="card">
 
@@ -126,7 +132,7 @@
 
 				<div class="row">
 					<div class="col-12 text-center">
-						<span class="title">PENGUMUMAN HASIL SELEKSI SNBT SNPMB 2026</span>
+						<span class="title">PENGUMUMAN HASIL SELEKSI SNBT SNPMB <span id="result-year">2026</span></span>
 					</div>
 				</div>
 
@@ -168,12 +174,13 @@
 							</div>
 							<div class="col-12 col-sm-8" style="font-weight: bold;">
 								<span id="tgllahir-peserta-diterima"></span>
-							</div>	
+							</div>
 						</div>
 						<br>
 						<div class="row">
 							<div class="col-12">
-								<span style="font-size: 1.1em;"><strong>Selamat! Anda dinyatakan lulus seleksi SNBT SNPMB 2026</strong> di</span>
+								<span style="font-size: 1.1em;"><strong>Selamat! Anda dinyatakan lulus seleksi SNBT SNPMB <span
+											id="message-year">2026</span></strong> di</span>
 							</div>
 						</div>
 						<br>
@@ -185,7 +192,8 @@
 								:
 							</div>
 							<div class="col-12 col-sm-8">
-								<span style="font-size: 1.1em; font-weight: bold;"><span id="kode-ptn-terima"></span> - <span id="nama-ptn-terima"></span></span>
+								<span style="font-size: 1.1em; font-weight: bold;"><span id="kode-ptn-terima"></span> - <span
+										id="nama-ptn-terima"></span></span>
 							</div>
 						</div>
 						<div class="row no-gutters">
@@ -196,33 +204,40 @@
 								:
 							</div>
 							<div class="col-10 col-sm-8">
-								<span style="font-size: 1.1em; font-weight: bold;"><span id="kode-prodi-terima"></span> - <span id="nama-prodi-terima"></span></span>
+								<span style="font-size: 1.1em; font-weight: bold;"><span id="kode-prodi-terima"></span> - <span
+										id="nama-prodi-terima"></span></span>
 							</div>
 						</div>
 						<br>
 						<div class="row" id="bidik-misi" style="display: none;">
 							<div class="col-12">
-								<p style="color: red;">Anda sebagai pendaftar  Program  Indonesia  Pintar  Pendidikan  Tinggi,  calon  pemegang  Kartu Indonesia Pintar Kuliah (KIP Kuliah) harus lolos verifikasi terhadap data akademik dan verifikasi  data  ekonomi  melalui  dokumen  dan/atau  kunjungan  ke  alamat  tinggal Peserta.</p>
+								<p style="color: red;">Anda sebagai pendaftar Program Indonesia Pintar Pendidikan Tinggi, calon pemegang
+									Kartu Indonesia Pintar Kuliah (KIP Kuliah) harus lolos verifikasi terhadap data akademik dan
+									verifikasi data ekonomi melalui dokumen dan/atau kunjungan ke alamat tinggal Peserta.</p>
 							</div>
 						</div>
 						<div class="row">
 							<div class="col-12">
-								<span>Persyaratan pendaftaran ulang calon mahasiswa baru dapat dilihat di <a id="url-daftar" target="_blank" href="">sini</a>.</span>
+								<span>Persyaratan pendaftaran ulang calon mahasiswa baru dapat dilihat di <a id="url-daftar"
+										target="_blank" href="">sini</a>.</span>
 							</div>
 						</div>
 						<br>
 						<div class="row">
 							<div class="col-12">
-								<span>Anda dapat mencetak kembali Kartu Tanda Peserta UTBK-SNBT 2026 di <a target="_blank" href="https://portal-snpmb.bppp.kemdikbud.go.id/">sini</a>.</span>
+								<span>Anda dapat mencetak kembali Kartu Tanda Peserta UTBK-SNBT <span id="utbk-year">2026</span> di <a
+										target="_blank" href="https://portal-snpmb.bppp.kemdikbud.go.id/">sini</a>.</span>
 							</div>
 						</div>
 						<br>
 						<div class="row">
 							<div class="col-12">
-								<a class="btn btn-block btn-info btn-wrap-text flash-button" target="_blank" href="https://storage.cloud.google.com/pdf-pengumuman-snbt-2023/pengumuman_snbt_2023_final_20062023.pdf">UNDUH PENGUMUMAN KETUA SNPMB (PDF)</a>
+								<a class="btn btn-block btn-info btn-wrap-text flash-button" target="_blank"
+									href="https://storage.cloud.google.com/pdf-pengumuman-snbt-2023/pengumuman_snbt_2023_final_20062023.pdf">UNDUH
+									PENGUMUMAN KETUA SNPMB (PDF)</a>
 							</div>
 						</div>
-						
+
 					</div>
 				</div>
 
@@ -250,13 +265,15 @@
 
 				<div class="row">
 					<div class="col text-center">
-						<span class="title">PENGUMUMAN HASIL SELEKSI SNBT SNPMB 2026</span>
+						<span class="title">PENGUMUMAN HASIL SELEKSI SNBT SNPMB <span id="result-year-rejected">2026</span></span>
 					</div>
 				</div>
 
 				<div class="card-body">
 					<p class="text-center" style="font-size: 1em;">
-						PESERTA ATAS NAMA <strong><span id="nama-peserta-tidak-terima"></span></strong> DENGAN NOMOR PESERTA <strong><span id="no-peserta-tidak-diterima"></span></strong> DINYATAKAN <strong>TIDAK LULUS</strong> SELEKSI SNBT SNPMB 2026.
+						PESERTA ATAS NAMA <strong><span id="nama-peserta-tidak-terima"></span></strong> DENGAN NOMOR PESERTA
+						<strong><span id="no-peserta-tidak-diterima"></span></strong> DINYATAKAN <strong>TIDAK LULUS</strong>
+						SELEKSI SNBT SNPMB <span id="message-year-rejected">2026</span>.
 					</p>
 					<p class="text-center" style="font-weight: bold; font-size: 1.5em;">JANGAN PUTUS ASA DAN TETAP SEMANGAT!</p>
 				</div>
@@ -278,4 +295,5 @@
 		<meta http-equiv="refresh" content="0; url=/nojs.html" />
 	</noscript>
 </body>
+
 </html>

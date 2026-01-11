@@ -1,9 +1,15 @@
 const keys = [
     'participant_number',
     'name',
+    'selection_year',
 ]
 
 $(document).ready(function () {
+    const selectionYear = localStorage.getItem('selection_year');
+    document.title = 'Pengumuman SNBT SNPMB ' + selectionYear;
+    $('#result-year').text(selectionYear);
+    $('#message-year').text(selectionYear);
+    
     const values = getLocalStorageValues(keys);
 
     $('#name').text(values['name'].toUpperCase());
