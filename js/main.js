@@ -83,12 +83,18 @@ $(document).ready(function () {
 
     setInterval(function() {
         $('#sawer-modal').modal('show');
-    }, 30000);
+    }, 60000);
 })
 
 $('select[name="college_name"]').change(function () {
     selectedCollege = $(this).val();
     const departements = Object.keys(universities[selectedCollege]);
+
+    // Destroy existing Tom Select instance for major if it exists
+    var majorSelectEl = document.getElementById('major-select');
+    if (majorSelectEl.tomselect) {
+        majorSelectEl.tomselect.destroy();
+    }
 
     removeOptionFromSelect('departement');
     removeOptionFromSelect('major');
@@ -104,8 +110,15 @@ $('select[name="departement"]').change(function () {
     selectedDepartement = $(this).val();
     const majors = universities[selectedCollege][selectedDepartement];
 
+    // Destroy existing Tom Select instance if it exists
+    var majorSelectEl = document.getElementById('major-select');
+    if (majorSelectEl.tomselect) {
+        majorSelectEl.tomselect.destroy();
+    }
+
     removeOptionFromSelect('major');
     addOptionToSelect('major', majors);
+
 
     var el;
     window.TomSelect && (new TomSelect(el = document.getElementById('major-select'), {
