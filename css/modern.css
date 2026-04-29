@@ -1,0 +1,419 @@
+/* ==========================================================
+   modern.css — Modern redesign for Fake SNBT Generator
+   ========================================================== */
+
+/* ----------  CSS Variables  ---------- */
+:root {
+  --clr-primary:        #4f46e5;
+  --clr-primary-dark:   #3730a3;
+  --clr-secondary:      #7c3aed;
+  --gradient-brand:     linear-gradient(135deg, #3730a3 0%, #4f46e5 55%, #7c3aed 100%);
+  --gradient-btn:       linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
+  --bg-page:            #eef0ff;
+  --card-shadow:        0 20px 60px -10px rgba(79, 70, 229, 0.22),
+                        0 8px 20px -5px rgba(79, 70, 229, 0.12);
+  --radius-card:        1.25rem;
+  --radius-input:       0.625rem;
+  --radius-btn:         0.75rem;
+  --transition:         all 0.22s ease;
+}
+
+/* ----------  Body / Page  ---------- */
+body {
+  background-color: var(--bg-page) !important;
+  background-image:
+    radial-gradient(ellipse 80% 60% at 15% 10%, rgba(99, 102, 241, 0.18) 0%, transparent 70%),
+    radial-gradient(ellipse 70% 50% at 85% 90%, rgba(124, 58, 237, 0.14) 0%, transparent 70%),
+    radial-gradient(ellipse 60% 60% at 80% 10%, rgba(56, 189, 248, 0.09) 0%, transparent 70%) !important;
+  background-attachment: fixed !important;
+  min-height: 100vh;
+}
+
+/* ----------  Outer wrapper  ---------- */
+.page {
+  position: relative;
+  z-index: 1;
+}
+
+.row.py-4.justify-content-center {
+  padding-top: 2.5rem !important;
+  padding-bottom: 2.5rem !important;
+}
+
+/* ----------  Main Card  ---------- */
+.card.card-md {
+  border: none !important;
+  border-radius: var(--radius-card) !important;
+  box-shadow: var(--card-shadow) !important;
+  overflow: hidden;
+  background: #fff !important;
+}
+
+/* ----------  Card Hero Header  ---------- */
+.card-hero {
+  background: var(--gradient-brand);
+  padding: 2rem 2rem 1.75rem;
+  text-align: center;
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Decorative blobs inside the hero */
+.card-hero::before,
+.card-hero::after {
+  content: '';
+  position: absolute;
+  border-radius: 50%;
+  pointer-events: none;
+}
+.card-hero::before {
+  width: 320px;
+  height: 320px;
+  background: rgba(255, 255, 255, 0.06);
+  top: -120px;
+  right: -80px;
+}
+.card-hero::after {
+  width: 200px;
+  height: 200px;
+  background: rgba(255, 255, 255, 0.05);
+  bottom: -80px;
+  left: -40px;
+}
+
+.card-hero .hero-logo-wrap {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.625rem;
+  background: rgba(255, 255, 255, 0.14);
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 0.875rem;
+  padding: 0.6rem 1.1rem;
+  margin-bottom: 1rem;
+  position: relative;
+  z-index: 1;
+}
+
+.card-hero h2 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 0.35rem;
+  position: relative;
+  z-index: 1;
+  letter-spacing: -0.01em;
+}
+
+.card-hero p {
+  font-size: 0.82rem;
+  opacity: 0.75;
+  margin: 0;
+  position: relative;
+  z-index: 1;
+}
+
+/* ----------  Card Body  ---------- */
+.card-body {
+  padding: 1.75rem 2rem !important;
+}
+
+/* ----------  Form Section Divider  ---------- */
+.form-section-label {
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+  color: var(--clr-primary);
+  margin-bottom: 0.75rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1.5px solid #e0e7ff;
+}
+
+/* ----------  Form Labels  ---------- */
+.form-label {
+  font-size: 0.83rem !important;
+  font-weight: 600 !important;
+  color: #374151 !important;
+  margin-bottom: 0.4rem !important;
+}
+
+.form-label.required::after {
+  color: #ef4444 !important;
+}
+
+/* ----------  Form Controls  ---------- */
+.form-control,
+.form-select {
+  border-radius: var(--radius-input) !important;
+  border-color: #dde1f5 !important;
+  background-color: #f9fafb !important;
+  font-size: 0.875rem !important;
+  transition: var(--transition) !important;
+  color: #1f2937 !important;
+}
+
+.form-control:focus,
+.form-select:focus {
+  border-color: var(--clr-primary) !important;
+  background-color: #fff !important;
+  box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.13) !important;
+  outline: none !important;
+}
+
+.form-control::placeholder {
+  color: #a1a8c4 !important;
+  font-size: 0.85rem !important;
+}
+
+/* ----------  Input Group (nomor peserta)  ---------- */
+.input-group .form-control {
+  border-radius: var(--radius-input) 0 0 var(--radius-input) !important;
+}
+
+.input-group .btn#random-participant-btn {
+  border-radius: 0 var(--radius-input) var(--radius-input) 0 !important;
+  background: #f0f4ff !important;
+  border-color: #dde1f5 !important;
+  border-left: none !important;
+  color: var(--clr-primary) !important;
+  font-size: 0.82rem !important;
+  font-weight: 500 !important;
+  padding: 0 0.9rem !important;
+  transition: var(--transition) !important;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.input-group .btn#random-participant-btn:hover {
+  background: var(--gradient-btn) !important;
+  border-color: transparent !important;
+  color: #fff !important;
+}
+
+.input-group:focus-within .btn#random-participant-btn {
+  border-color: var(--clr-primary) !important;
+}
+
+/* ----------  Tom Select  ---------- */
+.ts-wrapper.single .ts-control,
+.ts-wrapper.form-control .ts-control {
+  border-radius: var(--radius-input) !important;
+  border-color: #dde1f5 !important;
+  background: #f9fafb !important;
+  font-size: 0.875rem !important;
+  box-shadow: none !important;
+}
+
+.ts-wrapper.single.focus .ts-control {
+  border-color: var(--clr-primary) !important;
+  background: #fff !important;
+  box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.13) !important;
+}
+
+.ts-dropdown {
+  border-radius: var(--radius-input) !important;
+  border-color: #dde1f5 !important;
+  box-shadow: 0 8px 24px rgba(79, 70, 229, 0.14) !important;
+  font-size: 0.875rem !important;
+}
+
+.ts-dropdown .option.active,
+.ts-dropdown .option:hover {
+  background: #eef0ff !important;
+  color: var(--clr-primary) !important;
+}
+
+.ts-dropdown .option.selected {
+  background: var(--gradient-btn) !important;
+  color: #fff !important;
+}
+
+/* ----------  Radio Pill Select Groups  ---------- */
+.form-selectgroup-pills .form-selectgroup-label {
+  border-radius: 2rem !important;
+  font-size: 0.84rem !important;
+  font-weight: 500 !important;
+  padding: 0.42rem 1.1rem !important;
+  border-color: #dde1f5 !important;
+  color: #374151 !important;
+  transition: var(--transition) !important;
+  background: #f9fafb !important;
+}
+
+.form-selectgroup-pills .form-selectgroup-label:hover {
+  border-color: var(--clr-primary) !important;
+  color: var(--clr-primary) !important;
+}
+
+.form-selectgroup-input:checked + .form-selectgroup-label {
+  background: var(--gradient-btn) !important;
+  border-color: transparent !important;
+  color: #fff !important;
+  box-shadow: 0 4px 12px rgba(79, 70, 229, 0.3) !important;
+}
+
+/* ----------  isKip section  ---------- */
+#isKipContainer {
+  margin-top: 0.5rem;
+  padding: 1rem 1.25rem;
+  background: #f8f8ff;
+  border-radius: var(--radius-input);
+  border: 1px solid #e0e7ff;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+#isKipContainer .form-selectgroup-pills {
+}
+
+/* ----------  Generate Button  ---------- */
+#generate-btn.btn-primary {
+  background: var(--gradient-btn) !important;
+  border: none !important;
+  border-radius: var(--radius-btn) !important;
+  padding: 0.85rem 1rem !important;
+  font-size: 0.975rem !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.02em !important;
+  box-shadow: 0 4px 18px rgba(79, 70, 229, 0.38) !important;
+  transition: var(--transition) !important;
+  text-transform: none !important;
+}
+
+#generate-btn.btn-primary:hover {
+  transform: translateY(-2px) !important;
+  box-shadow: 0 8px 28px rgba(79, 70, 229, 0.45) !important;
+}
+
+#generate-btn.btn-primary:active {
+  transform: translateY(0) !important;
+}
+
+/* ----------  Bottom utility buttons  ---------- */
+.btn.btn-info.btn-pill {
+  background: #f0f9ff !important;
+  border-color: #bae6fd !important;
+  color: #0369a1 !important;
+  font-size: 0.8rem !important;
+  border-radius: 2rem !important;
+  font-weight: 500 !important;
+  transition: var(--transition) !important;
+}
+
+.btn.btn-info.btn-pill:hover {
+  background: #0284c7 !important;
+  border-color: #0284c7 !important;
+  color: #fff !important;
+}
+
+.btn.btn-outline-primary.btn-pill {
+  border-color: #c7d2fe !important;
+  color: var(--clr-primary) !important;
+  font-size: 0.8rem !important;
+  border-radius: 2rem !important;
+  font-weight: 500 !important;
+  transition: var(--transition) !important;
+}
+
+.btn.btn-outline-primary.btn-pill:hover {
+  background: var(--gradient-btn) !important;
+  border-color: transparent !important;
+  color: #fff !important;
+}
+
+/* ----------  Social icon buttons  ---------- */
+.btn.btn-outline-secondary.btn-icon.rounded-circle {
+  border-color: #c7d2fe !important;
+  color: #6366f1 !important;
+  transition: var(--transition) !important;
+  width: 2.4rem !important;
+  height: 2.4rem !important;
+}
+
+.btn.btn-outline-secondary.btn-icon.rounded-circle:hover {
+  background: var(--gradient-btn) !important;
+  border-color: transparent !important;
+  color: #fff !important;
+  transform: translateY(-2px) !important;
+  box-shadow: 0 4px 12px rgba(79, 70, 229, 0.3) !important;
+}
+
+/* ----------  KIP help popover trigger  ---------- */
+.form-help {
+  background: #e0e7ff !important;
+  color: var(--clr-primary) !important;
+  border-radius: 50% !important;
+}
+
+/* ----------  Disclaimer / warning text  ---------- */
+.text-muted.fs-5 {
+  font-size: 0.78rem !important;
+  color: #9ca3af !important;
+  text-align: center;
+  display: block;
+}
+
+/* ----------  Footer credit text  ---------- */
+.text-center.text-muted.mt-3 {
+  font-size: 0.78rem;
+  color: #9ca3af !important;
+}
+
+/* ----------  Modal enhancements  ---------- */
+.modal-content {
+  border-radius: var(--radius-card) !important;
+  border: none !important;
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.18) !important;
+  overflow: hidden;
+}
+
+.modal-header {
+  background: var(--gradient-brand) !important;
+  color: #fff !important;
+  border-bottom: none !important;
+  padding: 1.25rem 1.5rem !important;
+}
+
+.modal-header .modal-title {
+  color: #fff !important;
+  font-weight: 700 !important;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.modal-header .icon {
+  color: rgba(255, 255, 255, 0.85) !important;
+}
+
+.modal-header .btn-close {
+  filter: invert(1) !important;
+  opacity: 0.75 !important;
+}
+
+.modal-header .btn-close:hover {
+  opacity: 1 !important;
+}
+
+/* ----------  Responsive  ---------- */
+@media (max-width: 576px) {
+  .card-body {
+    padding: 1.25rem 1rem !important;
+  }
+
+  .card-hero {
+    padding: 1.5rem 1rem 1.25rem !important;
+  }
+
+  .card-hero h2 {
+    font-size: 1.1rem !important;
+  }
+
+  #isKipContainer {
+    justify-content: center;
+  }
+}
