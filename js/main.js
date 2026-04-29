@@ -1,7 +1,6 @@
 const undisplayedElementIfRejected = [
     'birthDateContainer',
     'collegeNameContainer',
-    'departementContainer',
     'majorContainer',
     'isKipContainer',
 ]
@@ -22,12 +21,11 @@ const requiredInputsIfAccepted = [
     'month',
     'year',
     'college_name',
-    'departement',
     'major',
     'is_kip'
 ]
 
-let selectedCollege, selectedDepartement;
+let selectedCollege;
 
 $(document).ready(function () {
     // Populate selection_year dropdown
@@ -44,8 +42,9 @@ $(document).ready(function () {
     // Set current year as selected
     $('select[name="selection_year"]').val(currentYear);
     
-    const colleges = Object.keys(universities);
-    addOptionToSelect('college_name', colleges);
+    universities.forEach(u => {
+        $('select[name="college_name"]').append(`<option value="${u.kode} - ${u.nama}">${u.nama}</option>`);
+    });
 
     var el;
     window.TomSelect && (new TomSelect(el = document.getElementById('college-select'), {
@@ -88,7 +87,9 @@ $(document).ready(function () {
 
 $('select[name="college_name"]').change(function () {
     selectedCollege = $(this).val();
-    const departements = Object.keys(universities[selectedCollege]);
+    const university = universities.find(u => `${u.kode} - ${u.nama}` === selectedCollege);
+    const jenjangLabel = { 'S1': 'Sarjana', 'D3': 'Diploma Tiga', 'D4': 'Diploma Empat' };
+    const majors = university ? university.prodi.map(p => `${p.kode} - ${p.nama} (${jenjangLabel[p.jenjang] || p.jenjang})`) : [];
 
     // Destroy existing Tom Select instance for major if it exists
     var majorSelectEl = document.getElementById('major-select');
@@ -96,29 +97,8 @@ $('select[name="college_name"]').change(function () {
         majorSelectEl.tomselect.destroy();
     }
 
-    removeOptionFromSelect('departement');
-    removeOptionFromSelect('major');
-    addOptionToSelect('departement', departements);
-});
-
-$('select[name="selection_year"]').change(function () {
-    const selectedYear = $(this).val();
-    document.title = 'Pengumuman SNBT SNPMB ' + selectedYear;
-});
-
-$('select[name="departement"]').change(function () {
-    selectedDepartement = $(this).val();
-    const majors = universities[selectedCollege][selectedDepartement];
-
-    // Destroy existing Tom Select instance if it exists
-    var majorSelectEl = document.getElementById('major-select');
-    if (majorSelectEl.tomselect) {
-        majorSelectEl.tomselect.destroy();
-    }
-
     removeOptionFromSelect('major');
     addOptionToSelect('major', majors);
-
 
     var el;
     window.TomSelect && (new TomSelect(el = document.getElementById('major-select'), {
@@ -142,6 +122,12 @@ $('select[name="departement"]').change(function () {
         },
     }));
 });
+
+$('select[name="selection_year"]').change(function () {
+    const selectedYear = $(this).val();
+    document.title = 'Pengumuman SNBT SNPMB ' + selectedYear;
+});
+
 
 $('input[name="status"]').change(function () {
     if (this.value == 'rejected') {
