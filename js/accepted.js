@@ -13,8 +13,14 @@ const keys = [
 $(document).ready(function () {
     const selectionYear = localStorage.getItem('selection_year');
     document.title = 'Pengumuman SNBT SNPMB ' + selectionYear;
-    $('#result-year').text(selectionYear);
-    $('#message-year').text(selectionYear);
+
+    if (selectionYear) {
+        $('#result-year').text(selectionYear);
+        $('#message-year').text(selectionYear);
+    } else {
+        $('#result-year').text('...');
+        $('#message-year').text('...');
+    }
     
     const formatedParticipantNumber = formatParticipantNumber(
         localStorage.getItem('participant_number')
