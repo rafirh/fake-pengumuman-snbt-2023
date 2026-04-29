@@ -129,6 +129,11 @@ $('select[name="selection_year"]').change(function () {
 });
 
 
+$('#random-participant-btn').click(function () {
+    const random = Array.from({length: 12}, () => Math.floor(Math.random() * 10)).join('');
+    $('input[name="participant_number"]').val(random).trigger('input');
+});
+
 $('input[name="status"]').change(function () {
     if (this.value == 'rejected') {
         hideElements(undisplayedElementIfRejected);
