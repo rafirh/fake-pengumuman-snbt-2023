@@ -29,7 +29,7 @@ let selectedCollege;
 
 $(document).ready(function () {
     // Populate selection_year dropdown
-    const currentYear = new Date().getFullYear();
+    const currentYear = new Date().getFullYear() + 1; // Assuming the selection year is the next year
     const years = [];
     for (let i = 0; i < 6; i++) {
         years.push(currentYear - i);
